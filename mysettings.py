@@ -1,0 +1,6 @@
+DATABASE_ENGINE = 'postgresql_psycopg2'
+DATABASE_NAME = 'myprogs' 
+DATABASE_USER = 'postgres'
+DATABASE_PASSWORD = 'PgAdmin2010'
+TEMPLATE_DIRS = 'd:/6.PROJECTS/sport/src/djtrunk/sport/templates'
+STATIC_DOC_ROOT = 'd:/6.PROJECTS/sport/src/djtrunk/sport/templates/styles'
