@@ -79,7 +79,9 @@ INSTALLED_APPS = (
 	'www'
 )
 
+from .mysettings import *
 
+"""
 try:
     import mysettings
 
@@ -91,3 +93,4 @@ try:
     TEMPLATE_DIRS = (mysettings.TEMPLATE_DIRS)
 except:
     pass
+"""
