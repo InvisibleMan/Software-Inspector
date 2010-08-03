@@ -10,10 +10,13 @@
 <body>
 
 <div class="page">
+	{{ message }}
 	<!-- top_nav -->
-	<form method="post" action="#">
-		<label>e-mail:</label> <input type="text"> <input type="submit" value="Login" />
+	{% if not is_logged %}
+	<form method="post" action="#" class="login">
+		<label>e-mail:</label> <input type="text" name="email"> <input type="submit" value="Login" />
 	</form>
+	{% endif %}
 	<div class="footer">
 		<div class="copyright"> Copyright © 2010 Software Inspector. Все права защищены.</div>
 	</div>

@@ -4,5 +4,14 @@ body {
 }
 
 .page {
-	background: yellow;
+	/*background: yellow;*/
+}
+
+.login{
+	float:right;
+	padding:4px;
+}
+
+.footer{
+	clear:both;
 }
