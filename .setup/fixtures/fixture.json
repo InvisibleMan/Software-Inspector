@@ -234,6 +234,24 @@
         }
     }, 
     {
+        "pk": 2, 
+        "model": "auth.user", 
+        "fields": {
+            "username": "Nikolay", 
+            "first_name": "", 
+            "last_name": "", 
+            "is_active": true, 
+            "is_superuser": true, 
+            "is_staff": true, 
+            "last_login": "2010-08-03 21:49:53", 
+            "groups": [], 
+            "user_permissions": [], 
+            "password": "sha1$52cc2$ba70590d9610c7b91970cea71ee70b4d9d9363bc", 
+            "email": "nik@mail.ru", 
+            "date_joined": "2010-07-31 09:37:59"
+        }
+    }, 
+    {
         "pk": 5, 
         "model": "contenttypes.contenttype", 
         "fields": {
