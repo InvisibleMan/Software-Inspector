@@ -10,16 +10,30 @@
 <body>
 
 <div class="page">
-	{{ message }}
-	<!-- top_nav -->
-	{% if not is_logged %}
-	<form method="post" action="#" class="login">
-		<label>e-mail:</label> <input type="text" name="email"> <input type="submit" value="Login" />
-	</form>
-	{% endif %}
+	<div class="login">
+        {% if not user.is_authenticated %}
+        <form method="post" action="/login">
+            <label>username:</label> <input size="10" type="text" name="username"> <input type="submit" value="Login" /><br />
+            <label>password:</label> <input size="10" type="password" name="password">
+        </form>
+        {% else %}
+            <a href="/logout">Выход</a>
+        {% endif %}
+	</div>
+	
+	
+	<div>
+    {% if user.is_authenticated %}
+        Welcome, {{ user.username }}. Thanks for logging in.
+    {% else %}
+        Welcome, new user. Please log in.
+    {% endif %}
+    </div>
+
 	<div class="footer">
 		<div class="copyright"> Copyright © 2010 Software Inspector. Все права защищены.</div>
 	</div>
 </div>
+{{ message }}
 </body>
 </html>

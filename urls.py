@@ -9,6 +9,8 @@ urlpatterns = patterns('',
     (r'^$', 'www.views.index'),
 	(r'^styles/(?P<path>.*)$', 'django.views.static.serve',
         {'document_root': settings.STATIC_DOC_ROOT}),
+    (r'^login',  'www.views.login'),
+    (r'^logout', 'www.views.logout'),
     # Example:
     # (r'^myprogs/', include('myprogs.foo.urls')),
 

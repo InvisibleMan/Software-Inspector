@@ -1,0 +1,4 @@
+http://yuji.wordpress.com/2008/08/08/django-easily-save-your-model-instances-with-dumpdata-and-loaddata/
+
+python manage.py dumpdata --indent=4 > fixture.json
+python manage.py loaddata fixture.json

@@ -28,9 +28,11 @@ II. Забираем последнюю версию кода
 III. Стандрартный порядок работы
 	1. Забираем последнюю версию из репозитория:
 	git pull в директории проекта (по у молчанию источник git://github.com/InvisibleMan/Software-Inspector.git)
-	2. Обнволяем базу:
+	2. Обнволяем базу (ВНИМАНИЕ: каталог c:/soft/src/db/ должен существовать!):
 	python manage.py syncdb
-	3. Запускаем сервер:
+	3. Если нужно заполняем базу (тестовыми данными)
+	python manage.py loaddata .setup\fixtures\fixture.json
+	4. Запускаем сервер:
 	python manage.py runserver
 	
 Больше информации см. Здесь:

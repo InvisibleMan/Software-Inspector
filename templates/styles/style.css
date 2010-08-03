@@ -1,17 +1,32 @@
 body {
-	margin: 0;
+    margin: 0;
 	padding: 0;
+	font-family:"Trebuchet MS";
 }
 
 .page {
-	/*background: yellow;*/
+    margin: 0 auto;
+    width:800px;
+	background:#ddf;
+
+    /*background: yellow;*/
 }
 
-.login{
+.login {
 	float:right;
 	padding:4px;
+	background-color:#a00;
+}
+
+form{
+	margin:0;
+	padding:0;
 }
 
 .footer{
 	clear:both;
+	margin-top:40px;
+	border-top: 1px solid white;
+	padding:10px;
+	text-align:center;
 }

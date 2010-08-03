@@ -1,34 +1,40 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from django.contrib.auth import authenticate, login
+from django.contrib import auth
 from django.contrib.auth.models import User
 
 def index(request):
-    is_logged = False
-   
-    message = 'Hello, Anonymous!'
+    return render_to_response('index.html', {
+        'user':request.user
+    })
 
-    if(request.method == 'POST' and len(request.POST['email']) > 0):
-        email = request.POST['email']
+
+def login(request):
+    user = request.user
+    if not user.is_authenticated():
+        username = request.POST.get('username', '')
+        password = request.POST.get('password', '')
         
-        is_logged = True
-        #user = authenticate(username='Homer', password='1')
-        user = User.objects.get(username__exact='Homer')
+        user = auth.authenticate(username=username, password=password)
         if user is not None:
-            user = authenticate(username='Homer', password='1')
-            login(request, user)
-            message = 'Hello, ' +  user.username
-        else:
-            message = 'Hello, ' +  email
-        
-        
+            auth.login(request, user)
         
     return render_to_response('index.html', {
-        'is_logged':is_logged, 'message':message
-        })
+        'user':user
+    })
+
+def logout(request):
+    auth.logout(request)
+    return index(request)
+
+
+
+
 #    return HttpResponse('Ok')
 
-#    fullevents = [loader.render_to_string('event2.html', { 'event': one_math }) for one_math in mathes]
-#    return render_to_response('index.html', {'events': fullevents})
 
-#def authenticate(self, username=None):
+
+        #try:
+        #    user = User.objects.get(email__exact='fairness@mail.ru')
+        #except:
+        #    pass
