@@ -1,3 +1,4 @@
 *.pyc
 *.kpf
+*.db
 settings/mysettings.py

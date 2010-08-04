@@ -76,7 +76,8 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
-	'www'
+    'django.contrib.admin',
+    'www'
 )
 
 from .mysettings import *
