@@ -1,5 +1,32 @@
 [
     {
+        "pk": 25, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "add_logentry", 
+            "name": "Can add log entry", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_logentry", 
+            "name": "Can change log entry", 
+            "content_type": 9
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_logentry", 
+            "name": "Can delete log entry", 
+            "content_type": 9
+        }
+    }, 
+    {
         "pk": 4, 
         "model": "auth.permission", 
         "fields": {
@@ -189,30 +216,84 @@
         }
     }, 
     {
-        "pk": 22, 
+        "pk": 28, 
         "model": "auth.permission", 
         "fields": {
-            "codename": "add_user", 
-            "name": "Can add user", 
-            "content_type": 8
+            "codename": "add_soft", 
+            "name": "Can add soft", 
+            "content_type": 10
         }
     }, 
     {
-        "pk": 23, 
+        "pk": 34, 
         "model": "auth.permission", 
         "fields": {
-            "codename": "change_user", 
-            "name": "Can change user", 
-            "content_type": 8
+            "codename": "add_softitem", 
+            "name": "Can add soft item", 
+            "content_type": 12
         }
     }, 
     {
-        "pk": 24, 
+        "pk": 31, 
         "model": "auth.permission", 
         "fields": {
-            "codename": "delete_user", 
-            "name": "Can delete user", 
-            "content_type": 8
+            "codename": "add_softversion", 
+            "name": "Can add soft version", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_soft", 
+            "name": "Can change soft", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_softitem", 
+            "name": "Can change soft item", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "change_softversion", 
+            "name": "Can change soft version", 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_soft", 
+            "name": "Can delete soft", 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_softitem", 
+            "name": "Can delete soft item", 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "auth.permission", 
+        "fields": {
+            "codename": "delete_softversion", 
+            "name": "Can delete soft version", 
+            "content_type": 11
         }
     }, 
     {
@@ -225,7 +306,7 @@
             "is_active": true, 
             "is_superuser": true, 
             "is_staff": true, 
-            "last_login": "2010-08-03 21:49:53", 
+            "last_login": "2010-08-06 21:32:19", 
             "groups": [], 
             "user_permissions": [], 
             "password": "sha1$52cc2$ba70590d9610c7b91970cea71ee70b4d9d9363bc", 
@@ -270,6 +351,15 @@
         }
     }, 
     {
+        "pk": 9, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "logentry", 
+            "name": "log entry", 
+            "app_label": "admin"
+        }
+    }, 
+    {
         "pk": 4, 
         "model": "contenttypes.contenttype", 
         "fields": {
@@ -306,21 +396,39 @@
         }
     }, 
     {
+        "pk": 10, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "soft", 
+            "name": "soft", 
+            "app_label": "www"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "softitem", 
+            "name": "soft item", 
+            "app_label": "www"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "contenttypes.contenttype", 
+        "fields": {
+            "model": "softversion", 
+            "name": "soft version", 
+            "app_label": "www"
+        }
+    }, 
+    {
         "pk": 3, 
         "model": "contenttypes.contenttype", 
         "fields": {
             "model": "user", 
             "name": "user", 
             "app_label": "auth"
-        }
-    }, 
-    {
-        "pk": 8, 
-        "model": "contenttypes.contenttype", 
-        "fields": {
-            "model": "user", 
-            "name": "user", 
-            "app_label": "www"
         }
     }, 
     {
@@ -332,6 +440,14 @@
         }
     }, 
     {
+        "pk": "7aca5a6de6ad6ea5007e88cfecb8bd04", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2010-08-17 22:36:39", 
+            "session_data": "gAJ9cQEuNTQ0NGYzOTMxYmI3Yzg2ZGE1NjVjY2VjMzdjY2ViN2U=\n"
+        }
+    }, 
+    {
         "pk": "2be631d7727630f8587ee5a218cfaf01", 
         "model": "sessions.session", 
         "fields": {
@@ -340,11 +456,347 @@
         }
     }, 
     {
+        "pk": "dafd2fb4292b8ec9501077b93d55d120", 
+        "model": "sessions.session", 
+        "fields": {
+            "expire_date": "2010-08-20 21:32:19", 
+            "session_data": "gAJ9cQEoVRJfYXV0aF91c2VyX2JhY2tlbmRxAlUpZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5k\ncy5Nb2RlbEJhY2tlbmRxA1UNX2F1dGhfdXNlcl9pZHEESwF1LmVmNmM4MGY2YWE5YTRhMWQ1MDc5\nYjg5MzgyMGUxYTQ3\n"
+        }
+    }, 
+    {
         "pk": 1, 
         "model": "sites.site", 
         "fields": {
             "domain": "example.com", 
             "name": "example.com"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:49", 
+            "object_repr": "SoftItem object", 
+            "object_id": "5", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:44", 
+            "object_repr": "SoftItem object", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:39", 
+            "object_repr": "SoftItem object", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:34", 
+            "object_repr": "SoftItem object", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:29", 
+            "object_repr": "SoftItem object", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 12
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:44:03", 
+            "object_repr": "Adobe Flash Player 10 Plugin", 
+            "object_id": "5", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:43:36", 
+            "object_repr": "Adobe Flash Player 10 ActiveX", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:43:00", 
+            "object_repr": "Adobe Illustrator CS3", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:41:58", 
+            "object_repr": "Windows Internet Explorer 7", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:41:24", 
+            "object_repr": "Microsoft Office Enterprise 2007", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 11
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:40:22", 
+            "object_repr": "Windows Internet Explorer", 
+            "object_id": "4", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:39:20", 
+            "object_repr": "Adobe Illustrator", 
+            "object_id": "3", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:39:04", 
+            "object_repr": "Adobe Flash Player", 
+            "object_id": "2", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "admin.logentry", 
+        "fields": {
+            "action_flag": 1, 
+            "action_time": "2010-08-06 21:33:02", 
+            "object_repr": "MS Office", 
+            "object_id": "1", 
+            "change_message": "", 
+            "user": 1, 
+            "content_type": 10
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "www.soft", 
+        "fields": {
+            "url": "", 
+            "vendor": "Microsoft", 
+            "name": "MS Office"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "www.soft", 
+        "fields": {
+            "url": "", 
+            "vendor": "Adobe", 
+            "name": "Adobe Flash Player"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "www.soft", 
+        "fields": {
+            "url": "", 
+            "vendor": "Adobe", 
+            "name": "Adobe Illustrator"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "www.soft", 
+        "fields": {
+            "url": "", 
+            "vendor": "Microsoft", 
+            "name": "Windows Internet Explorer"
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "www.softversion", 
+        "fields": {
+            "name": "Microsoft Office Enterprise 2007", 
+            "url": "", 
+            "price": "400", 
+            "download_url": "", 
+            "platform": 1, 
+            "version": "11", 
+            "user_version": "2007", 
+            "soft": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "www.softversion", 
+        "fields": {
+            "name": "Windows Internet Explorer 7", 
+            "url": "", 
+            "price": "0", 
+            "download_url": "", 
+            "platform": 1, 
+            "version": "7", 
+            "user_version": "7", 
+            "soft": 4
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "www.softversion", 
+        "fields": {
+            "name": "Adobe Illustrator CS3", 
+            "url": "", 
+            "price": "600", 
+            "download_url": "", 
+            "platform": 1, 
+            "version": "7", 
+            "user_version": "CS3", 
+            "soft": 3
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "www.softversion", 
+        "fields": {
+            "name": "Adobe Flash Player 10 ActiveX", 
+            "url": "", 
+            "price": "0", 
+            "download_url": "", 
+            "platform": 1, 
+            "version": "10", 
+            "user_version": "10", 
+            "soft": 2
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "www.softversion", 
+        "fields": {
+            "name": "Adobe Flash Player 10 Plugin", 
+            "url": "", 
+            "price": "0", 
+            "download_url": "", 
+            "platform": 1, 
+            "version": "10.1.53.64", 
+            "user_version": "10", 
+            "soft": 2
+        }
+    }, 
+    {
+        "pk": 1, 
+        "model": "www.softitem", 
+        "fields": {
+            "soft_version": 1, 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "www.softitem", 
+        "fields": {
+            "soft_version": 2, 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "www.softitem", 
+        "fields": {
+            "soft_version": 3, 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "www.softitem", 
+        "fields": {
+            "soft_version": 4, 
+            "user": 1
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "www.softitem", 
+        "fields": {
+            "soft_version": 5, 
+            "user": 1
         }
     }
 ]
