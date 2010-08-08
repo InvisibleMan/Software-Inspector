@@ -30,3 +30,22 @@ form{
 	padding:10px;
 	text-align:center;
 }
+
+.soft_items {
+	padding: 20px;
+}
+
+.soft_items ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.soft_items ul li{
+	border: 1px solid transparent;
+	padding:5px;
+}
+
+.soft_items ul li:hover{
+	border: 1px solid gray;
+}

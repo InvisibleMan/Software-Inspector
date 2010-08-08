@@ -657,7 +657,7 @@
         "pk": 1, 
         "model": "www.soft", 
         "fields": {
-            "url": "", 
+            "url": "http://microsoft.com", 
             "vendor": "Microsoft", 
             "name": "MS Office"
         }
@@ -666,7 +666,7 @@
         "pk": 2, 
         "model": "www.soft", 
         "fields": {
-            "url": "", 
+            "url": "http://adobe.com", 
             "vendor": "Adobe", 
             "name": "Adobe Flash Player"
         }
@@ -675,7 +675,7 @@
         "pk": 3, 
         "model": "www.soft", 
         "fields": {
-            "url": "", 
+            "url": "http://adobe.com", 
             "vendor": "Adobe", 
             "name": "Adobe Illustrator"
         }
@@ -684,7 +684,7 @@
         "pk": 4, 
         "model": "www.soft", 
         "fields": {
-            "url": "", 
+            "url": "http://microsoft.com", 
             "vendor": "Microsoft", 
             "name": "Windows Internet Explorer"
         }

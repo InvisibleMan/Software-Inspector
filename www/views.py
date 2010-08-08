@@ -3,6 +3,8 @@ from django.shortcuts import render_to_response
 from django.contrib import auth
 from django.contrib.auth.models import User
 from django.http import Http404
+from www.models import Soft, SoftVersion, SoftItem
+
 
 def index(request):
     return render_to_response('index.html', {
@@ -35,8 +37,14 @@ def user(request, user_name):
         user.username
     except User.DoesNotExist:
         raise Http404#render_to_response('404.html')
-        
-    return HttpResponse(user.username + '\' page!')
+    
+    soft_items = SoftItem.objects.filter(user__id=user.id)
+    
+    #return HttpResponse(user.username + '\' page!')
+    return render_to_response('details.html', {
+        'user':user,
+        'soft_items':soft_items
+    })
 
         #try:
         #    user = User.objects.get(email__exact='fairness@mail.ru')

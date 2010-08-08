@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<SoftwareInspectorDataSet xmlns="http://tempuri.org/DataSet1.xsd">
+  <InstalledSoftware>
+    <sName>Windows Driver Package - Nokia pccsmcfd  (08/22/2008 7.0.0.0)</sName>
+    <sVersion>08/22/2008 7.0.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>7-Zip 4.57</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ActiveState ActiveTcl 8.4.19.1</sName>
+    <sVersion>8.4.19.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe AIR</sName>
+    <sVersion>1.5.3.9130</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 ActiveX</sName>
+    <sVersion>10.1.53.64</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 Plugin</sName>
+    <sVersion>10.1.53.64</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+</SoftwareInspectorDataSet>

@@ -1,0 +1,2769 @@
+<?xml version="1.0" standalone="yes"?>
+<SoftwareInspectorDataSet xmlns="http://tempuri.org/DataSet1.xsd">
+  <InstalledSoftware>
+    <sName>Windows Driver Package - Nokia pccsmcfd  (08/22/2008 7.0.0.0)</sName>
+    <sVersion>08/22/2008 7.0.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>7-Zip 4.57</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ActiveState ActiveTcl 8.4.19.1</sName>
+    <sVersion>8.4.19.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe AIR</sName>
+    <sVersion>1.5.3.9130</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 ActiveX</sName>
+    <sVersion>10.1.53.64</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 Plugin</sName>
+    <sVersion>10.1.53.64</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Photoshop Elements 5.0</sName>
+    <sVersion>5.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Illustrator CS3</sName>
+    <sVersion>13.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Aspell English Dictionary-0.50-2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Aspell Russian Dictionary-0.50-2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ATI Display Driver</sName>
+    <sVersion>8.36-070314a3-044981C-ATI</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Creative Audio Console</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Digital Editions</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>DVD Decrypter (Remove Only)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Driver Package - MobileTop (sshpmdm) Modem  (01/26/2008 2.6.0.0)</sName>
+    <sVersion>01/26/2008 2.6.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>EditPlus 3</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Enterprise 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Fiddler2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>FlashGet 1.9.6.1073</sName>
+    <sVersion>1.9.6.1073</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>GNU Aspell 0.50-3</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>GTK+ Runtime 2.14.7 rev a (remove only)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Holy Grail</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Internationalized Domain Names Mitigation APIs</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Internet Explorer 7</sName>
+    <sVersion>20070813.185237</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Internet Explorer 8</sName>
+    <sVersion>20090308.140743</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ImgBurn</sName>
+    <sVersion>2.4.2.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Гэбриэл Найт</sName>
+    <sVersion>1.0.0.31</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Samsung New PC Studio</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB2229593)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB2286198)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB898461)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB923561)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB923789)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows PowerShell(TM) 1.0</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows Media Format 11 SDK (KB929399)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player 11 (KB936782)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 7 (KB938127-v2)</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB938464)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows Media Player 11 (KB939683)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB941569)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB942288-v3)</sName>
+    <sVersion>3</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB946648)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB950762)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB950974)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB951066)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB951072-v2)</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB951376-v2)</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB951698)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB951748)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB951978)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB952004)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Feature Pack for Storage (32-bit) - IMAPI update for Blu-Ray</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player (KB952069)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB952287)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB952954)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB953838)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 7 (KB953838)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB953839)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player 11 (KB954154)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player (KB954155)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB954211)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB954459)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB954550-v5)</sName>
+    <sVersion>5</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB954600)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB955069)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB955759)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB955839)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 7 (KB956390)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956391)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956572)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956744)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956802)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956803)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956841)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB956844)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB957095)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB957097)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB958644)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB958655-v2)</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB958687)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB958690)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB958869)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB959426)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Critical Update for Windows Media Player 11 (KB959772)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB960225)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB960715)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB960803)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB960859)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB961118)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB961371)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB961373)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB961501)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB961503)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB967715)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows Internet Explorer 8 (KB968220)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Service Pack 1 for SQL Server 2008 (KB968369)</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB968389)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB968537)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player (KB968816)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB969059)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB969897)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB969898)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB969947)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB970238)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB970430)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB970653-v3)</sName>
+    <sVersion>3</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB971468)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB971486)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB971557)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB971633)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB971657)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB971737)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB971961)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB972260)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB972270)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973346)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973354)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973507)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973525)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player (KB973540)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB973687)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows XP (KB973815)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973869)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB973904)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB974112)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB974318)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB974392)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB974455)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB974571)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975025)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975467)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975560)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975561)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975562)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB975713)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB976098-v2)</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB976325)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows Internet Explorer 8 (KB976662)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows Internet Explorer 8 (KB976749)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB977165)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB977816)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB977914)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978037)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB978207)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978251)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978262)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978338)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978542)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978601)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Media Player (KB978695)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB978706)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB979306)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB979309)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB979482)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB979559)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB979683)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Windows Internet Explorer 8 (KB980182)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB980195)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB980218)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows XP (KB980232)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB981332)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Windows XP (KB981793)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Windows Internet Explorer 8 (KB982381)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>K-Lite Mega Codec Pack 6.2.0</sName>
+    <sVersion>6.2.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>LiveUSB Creator (remove only)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 3.5 SP1</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Client Profile</sName>
+    <sVersion>4.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Extended</sName>
+    <sVersion>4.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Document Explorer 2008</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Help Viewer 1.0</sName>
+    <sVersion>1.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Team Foundation Server 2010 Object Model - ENU</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio 2005 Tools for Office Second Edition Runtime</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Premium RC - ENU</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Tools for Office Runtime (x86)</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Macro Tools</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Team System 2008 Team Suite - ENU</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Mozilla Firefox (3.6)</sName>
+    <sVersion>3.6 (ru)</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Mozilla Thunderbird (2.0.0.21)</sName>
+    <sVersion>2.0.0.21 (ru)</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Compression Client Pack 1.0 for Windows XP</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSDN Library for Visual Studio 2008 - ENU</sName>
+    <sVersion>9.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Python 2.6 MySQL-python-1.2.2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft National Language Support Downlevel APIs</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Notepad++</sName>
+    <sVersion>5.3.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>NVIDIA Drivers</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Pen Tablet</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Picasa 3</sName>
+    <sVersion>3.6</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Pidgin</sName>
+    <sVersion>2.5.5</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>PostgreSQL 8.4</sName>
+    <sVersion>8.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Python 2.6 psycopg2-2.0.13</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Punto Switcher 3.1</sName>
+    <sVersion>3.1.1.72</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Radio-T</sName>
+    <sVersion>0.17.031</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Ruby-186-27</sName>
+    <sVersion>1.8.6-27</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile Composite Device Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile Modem Driver Set</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Samsung Mobile Modem Device Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile Modem V2 Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Samsung Mobile phone USB driver Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile USB Download Driver Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile USB Modem Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile USB Modem 1.0 Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Samsung Mobile USB Modem Device Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG USB Mobile Device Software</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office SharePoint Designer 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Songbird 1.4.3 (Build 1438)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SpeedFan (remove only)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>StrongDC++ 2.30</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>TeamViewer 5</sName>
+    <sVersion>5.0.7904 </sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>TortoiseHg 0.9.1.1</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Total Commander (Remove or Repair)</sName>
+    <sVersion>7.55</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>TrueCrypt</sName>
+    <sVersion>6.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Tweak UI</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>USB Safely Remove 4.2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>µTorrent</sName>
+    <sVersion>2.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio Tools for the Office system 3.0 Runtime</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Web Authoring Component</sName>
+    <sVersion>12.0.4518.1066</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>VLC media player 1.1.0</sName>
+    <sVersion>1.1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Kernel-Mode Driver Framework Feature Pack 1.5</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Media Format 11 runtime</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Media Player 11</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows XP Service Pack 3</sName>
+    <sVersion>20080414.031525</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>GIMP 2.4.7</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Essentials</sName>
+    <sVersion>14.0.8089.0726</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>WinPcap 4.1.1</sName>
+    <sVersion>4.1.0.1753</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows Media Video 9 VCM</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft User-Mode Driver Framework Feature Pack 1.7</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>wxPython 2.8.10.1 (unicode) for Python 2.6</sName>
+    <sVersion>2.8.10.1-unicode</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>XMedia Recode 2.1.8.4</sName>
+    <sVersion>2.1.8.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>XML Paper Specification Shared Components Pack 1.0</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>XviD4PSP 5.0</sName>
+    <sVersion>5.036</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 ATL Update kb973924 - x86 9.0.30729.4148</sName>
+    <sVersion>9.0.30729.4148</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Compact 3.5 SP2 ENU</sName>
+    <sVersion>3.5.8078.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Policies</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Full text search</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Help Viewer CS3</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows SDK for Visual Studio 2008 .NET Framework Tools - enu</sName>
+    <sVersion>3.5.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Multi-Targeting Pack</sName>
+    <sVersion>4.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Bridge Start Meeting</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSXML 6.0 Parser (KB933579)</sName>
+    <sVersion>6.10.1200.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Compact 3.5 SP1 Design Tools English</sName>
+    <sVersion>3.5.5692.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>CDDRV_Installer</sName>
+    <sVersion>4.60</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Evernote для Windows</sName>
+    <sVersion>3.1.0.1226</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x64 Runtime - (v9.0.30729)</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x64 Runtime - v9.0.30729.01</sName>
+    <sVersion>9.0.30729.01</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Web Deployment Tool</sName>
+    <sVersion>1.1.0618</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Writer</sName>
+    <sVersion>14.0.8089.0726</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe WinSoft Linguistics Plugin</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Common Files</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4418</sName>
+    <sVersion>9.0.30729.4418</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server System CLR Types</sName>
+    <sVersion>10.50.1376.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio 2010 Tools for SQL Server Compact 3.5 SP2 ENU</sName>
+    <sVersion>4.0.8078.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148</sName>
+    <sVersion>9.0.30729.4148</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual F# 2.0 Runtime</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Silverlight 3 SDK</sName>
+    <sVersion>3.0.40818.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Management Studio</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Upload Tool</sName>
+    <sVersion>14.0.8014.1029</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>QuickTime</sName>
+    <sVersion>7.60.92.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Google Talk (remove only)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 IA64 Runtime - (v9.0.30729)</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 IA64 Runtime - v9.0.30729.01</sName>
+    <sVersion>9.0.30729.01</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Compact 3.5 for Devices ENU</sName>
+    <sVersion>3.5.5386.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Python 2.6.2</sName>
+    <sVersion>2.6.2150</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Help Center 2.1</sName>
+    <sVersion>2.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java(TM) 6 Update 19</sName>
+    <sVersion>6.0.190</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java(TM) 6 Update 17</sName>
+    <sVersion>6.0.170</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Google Talk Plugin</sName>
+    <sVersion>1.3.1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 BI Development Studio</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ConvertHelper 2.2</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Compact Framework 3.5</sName>
+    <sVersion>3.5.7283</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Stock Photos CS3</sName>
+    <sVersion>1.5</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Transact-SQL Language Service</sName>
+    <sVersion>10.50.1376.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>KhalInstallWrapper</sName>
+    <sVersion>2.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java(TM) 6 Update 7</sName>
+    <sVersion>1.6.0.70</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 RsFx Driver</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ActiveState Komodo Edit 5.2.0 Alpha 1</sName>
+    <sVersion>5.2.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 2.0 Service Pack 1 Language Pack - RUS</sName>
+    <sVersion>2.1.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2010  RC x86 Runtime - 10.0.30128</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>WebFldrs XP</sName>
+    <sVersion>9.50.7523</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2005 Tools for Office Runtime</sName>
+    <sVersion>8.0.60940.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Management Objects</sName>
+    <sVersion>10.50.1376.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSDN Library for Visual Studio 2008 - ENU</sName>
+    <sVersion>9.0.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Silverlight 3 Toolkit November 2009</sName>
+    <sVersion>3.0.31118.0320</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Database Engine Services</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Sign-in Assistant</sName>
+    <sVersion>5.000.818.5</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Database Engine Shared</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java Auto Updater</sName>
+    <sVersion>2.0.2.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Common Files</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Mercurial snapshot</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Setup</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Native Client</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Color EU Extra Settings</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>PHP 5.2.8</sName>
+    <sVersion>5.2.8</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Linguistics CS3</sName>
+    <sVersion>3.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>neroxml</sName>
+    <sVersion>1.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>WPF Toolkit October 2008 (Version 3.5.31016.1)</sName>
+    <sVersion>3.5.31016.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows SDK for Visual Studio 2008 SDK Reference Assemblies and IntelliSense</sName>
+    <sVersion>6.1.5288.17011</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Compact 3.5 SP1 Query Tools English</sName>
+    <sVersion>3.5.5692.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Document Explorer 2008</sName>
+    <sVersion>9.0.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Nokia Connectivity Cable Driver</sName>
+    <sVersion>7.1.22.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Opera 10.10</sName>
+    <sVersion>10.10</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Apple Software Update</sName>
+    <sVersion>2.1.1.116</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Fonts All</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Consolas Font Family</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Mobile 5.0 SDK R2 for Pocket PC</sName>
+    <sVersion>5.00.1700.5.14343.06</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSVC80_x86_v2</sName>
+    <sVersion>1.0.3.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>PC Connectivity Solution</sName>
+    <sVersion>9.44.0.3</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Asset Services CS3</sName>
+    <sVersion>3</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG Mobile USB Driver</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Trend Micro Internet Security Pro</sName>
+    <sVersion>17.50</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2005 Redistributable</sName>
+    <sVersion>8.0.56336</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Oracle VM VirtualBox 3.2.6</sName>
+    <sVersion>3.2.6</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2005 ATL Update kb973923 - x86 8.0.50727.4053</sName>
+    <sVersion>8.0.50727.4053</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Corporation</sName>
+    <sVersion>9.0.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x86 Runtime - (v9.0.30729.4148)</sName>
+    <sVersion>9.0.30729.4148</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x86 Runtime - v9.0.30729.4148</sName>
+    <sVersion>9.0.30729.4148</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SamsungConnectivityCableDriver</sName>
+    <sVersion>6.83.6.2.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe XMP Panels CS3</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Team System 2008 Team Suite - ENU</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Team System 2008 Team Suite - ENU Service Pack 1 (KB945140)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Microsoft Visual Studio Team System 2008 Team Suite - ENU (KB967143)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio Team System 2008 Team Suite - ENU (KB971092)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Visual Studio Team System 2008 Team Suite - ENU (KB972222)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Visual Studio Team System 2008 Team Suite - ENU (KB973675)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Essentials</sName>
+    <sVersion>14.0.8089.726</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Data-Tier Application Framework</sName>
+    <sVersion>10.50.1376.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2005 Redistributable</sName>
+    <sVersion>8.0.59193</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows SDK for Visual Studio 2008 Headers and Libraries</sName>
+    <sVersion>6.1.5288.17011</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Apache HTTP Server 2.2.11</sName>
+    <sVersion>2.2.11</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSXML 4.0 SP2 (KB954430)</sName>
+    <sVersion>4.20.9870.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft ASP.NET MVC 2</sName>
+    <sVersion>2.0.41211.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Silverlight</sName>
+    <sVersion>4.0.50524.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Dotfuscator Software Services - Community Edition</sName>
+    <sVersion>5.0.2300.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Device Central CS3</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Type Support</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Thrustmaster Force Feedback Driver</sName>
+    <sVersion>1.FFD.2006</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio Tools for the Office system 3.0 Runtime</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio Tools for the Office system 3.0 Runtime Service Pack 1 (KB949258)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Software Update for Web Folders  (English) 12</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Software Update for Web Folders  (Russian) 12</sName>
+    <sVersion>12.0.4804.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Access MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office 2007 Service Pack 2 (SP2)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Excel MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office system 2007 (972581)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office system 2007 (KB969613)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for 2007 Microsoft Office System (KB969559)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for 2007 Microsoft Office System (KB976321)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for 2007 Microsoft Office System (KB982312)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for 2007 Microsoft Office System (KB967642)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office SharePoint Designer 2007 Service Pack 2 (SP2)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office system 2007 (KB974234)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office SharePoint Designer MUI (Russian) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office PowerPoint MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Publisher MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Outlook MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Word MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (German) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proofing Tools 2007 Service Pack 2 (SP2)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName />
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (French) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (Russian) 2007</sName>
+    <sVersion>12.0.4804.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (Ukrainian) 2007</sName>
+    <sVersion>12.0.4804.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (Spanish) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Visual Web Developer 2007</sName>
+    <sVersion>12.0.4518.1066</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for 2007 Microsoft Office System (KB951550)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Microsoft Visual Studio Web Authoring Component (KB945140)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Visual Web Developer MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proofing (English) 2007</sName>
+    <sVersion>12.0.4518.1014</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proofing (Russian) 2007</sName>
+    <sVersion>12.0.4804.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office InfoPath MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Shared MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Shared MUI (Russian) 2007</sName>
+    <sVersion>12.0.4804.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office OneNote MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Groove MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Groove Setup Metadata MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Shared Setup Metadata MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Access Setup Metadata MUI (English) 2007</sName>
+    <sVersion>12.0.6425.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Anchor Service CS3</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Word 2007 (KB982135)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office InfoPath 2007 (KB979441)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Access 2007 (KB979440)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Publisher 2007 (KB982124)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Microsoft Office OneNote 2007 (KB980729)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Outlook 2007 (KB980376)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Visio Viewer 2007 (KB973709)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Outlook 2007 Junk Email Filter (kb2202131)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office Excel 2007 (KB982308)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for 2007 Microsoft Office System (KB982331)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft Office PowerPoint 2007 (KB982158)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft ASP.NET MVC 2 - Visual Studio 2010 Tools</sName>
+    <sVersion>2.0.41211.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Application Error Reporting</sName>
+    <sVersion>12.0.6012.5000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Color NA Recommended Settings</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Mobile 5.0 SDK R2 for Smartphone</sName>
+    <sVersion>5.00.1700.5.14343.06</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework SDK v1.0 SP1</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Database Publishing Wizard 1.3</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Bridge CS3</sName>
+    <sVersion>2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Segoe UI</sName>
+    <sVersion>14.0.4327.805</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe CMaps</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 3.0 Service Pack 2</sName>
+    <sVersion>3.2.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>erLT</sName>
+    <sVersion>1.20.0137</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Crystal Reports Basic for Visual Studio 2008</sName>
+    <sVersion>10.5.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Tools for Applications 2.0 - ENU</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio 2007 Tools for Applications - ENU (KB946040)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio 2007 Tools for Applications - ENU (KB946308)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio 2007 Tools for Applications - ENU (KB946344)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio 2007 Tools for Applications - ENU (KB947540)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft Visual Studio 2007 Tools for Applications - ENU (KB947789)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2000 Sample Database Scripts</sName>
+    <sVersion>1.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Crystal Reports for Visual Studio</sName>
+    <sVersion>12.51.0.240</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>PDF Settings</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Database Publishing Wizard 1.4</sName>
+    <sVersion>10.1.2512.8</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Data-Tier Application Project</sName>
+    <sVersion>10.50.1376.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Office Developer Tools (x86)</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows SDK for Visual Studio 2008 SP1 Win32 Tools</sName>
+    <sVersion>6.1.5294.17011</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Device Emulator version 3.0 - ENU</sName>
+    <sVersion>9.0.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Camera Raw 4.0</sName>
+    <sVersion>4.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server VSS Writer</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Default Language CS3</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2008 Shell (integrated mode) - ENU</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 ADO.NET Entity Framework Tools</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 2.0 Service Pack 2</sName>
+    <sVersion>2.2.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe ExtendScript Toolkit 2</sName>
+    <sVersion>2.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Browser</sName>
+    <sVersion>10.0.1600.22</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework Runtime v1.0 SP1 (x86)</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Sql Server Customer Experience Improvement Program</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ClearType Tuning Control Panel Applet</sName>
+    <sVersion>1.01.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Windows SDK for Visual Studio 2008 SP1 Tools</sName>
+    <sVersion>6.1.5294.17011</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MySQL Server 5.1</sName>
+    <sVersion>5.1.42</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 3.5 SP1</sName>
+    <sVersion>3.5.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft .NET Framework 3.5 SP1 (KB953595)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Hotfix for Microsoft .NET Framework 3.5 SP1 (KB958484)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Microsoft .NET Framework 3.5 SP1 (KB963707)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Performance Collection Tools - ENU</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 3.0 Service Pack 1 Language Pack - RUS</sName>
+    <sVersion>3.1.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Version Cue CS3 Client</sName>
+    <sVersion>3</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Skype™ 4.1</sName>
+    <sVersion>4.1.179</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe PDF Library Files</sName>
+    <sVersion>8.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Database Engine Services</sName>
+    <sVersion>10.1.2531.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 Setup Support Files </sName>
+    <sVersion>10.1.2731.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>SAMSUNG SYMBIAN USB Download Driver</sName>
+    <sVersion>1.1.808.7165</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Color Common Settings</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Services for ADO.NET v2.0 SP1 (x86)</sName>
+    <sVersion>2.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Color JA Extra Settings</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MySQL Workbench 5.2 OSS</sName>
+    <sVersion>5.2.15</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Team Foundation Server 2010 RC Object Model - ENU</sName>
+    <sVersion>10.0.30128</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ArtRage 2</sName>
+    <sVersion>2.5.20</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Safari</sName>
+    <sVersion>4.31.9.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Update Manager CS3</sName>
+    <sVersion>5.1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>OpenOffice.org 3.1</sName>
+    <sVersion>3.1.9420</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2008 Performance Collection Tools - ENU</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Compact Framework 2.0 SP2</sName>
+    <sVersion>2.0.7045</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Choice Guard</sName>
+    <sVersion>2.0.48.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>TortoiseOverlays</sName>
+    <sVersion>1.0.11886</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Virtual Desktop Manager Powertoy for Windows XP</sName>
+    <sVersion>1.00.0001</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Logitech SetPoint</sName>
+    <sVersion>4.80</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x86 Runtime - (v9.0.30729)</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual C++ 2008 x86 Runtime - v9.0.30729.01</sName>
+    <sVersion>9.0.30729.01</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSXML 4.0 SP2 (KB973688)</sName>
+    <sVersion>4.20.9876.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework Services v1.0 SP1 (x86)</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Native Client</sName>
+    <sVersion>9.00.3042.00</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+</SoftwareInspectorDataSet>

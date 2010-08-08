@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Software Inspector</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="/styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="page">
+	<div class="login">
+        {% if not user.is_authenticated %}
+        <form method="post" action="/login">
+            <label>username:</label> <input size="10" type="text" name="username"> <input type="submit" value="Login" /><br />
+            <label>password:</label> <input size="10" type="password" name="password">
+        </form>
+        {% else %}
+            <a href="/logout">Выход</a>
+        {% endif %}
+	</div>
+	
+	
+	<div class="soft_items">
+	{% if soft_items %}
+		<ul>
+		{% for item in soft_items %}
+			<li>
+				<div><strong>{{ item.soft_version.name|safe }}</strong></div>
+				<div><a href="{{ item.soft_version.soft.url}}">{{ item.soft_version.soft.vendor|safe }}</a></em></div>
+			</li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>Информация об установленных программах отсутвует.</p>
+	{% endif %}
+    </div>
+
+	<div class="footer">
+		<div class="copyright"> Copyright © 2010 Software Inspector. Все права защищены.</div>
+	</div>
+</div>
+{{ message }}
+</body>
+</html>
