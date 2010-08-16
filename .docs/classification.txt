@@ -1,0 +1,33 @@
+MS Office									| Soft
+	MS Office Professioanl Plus 2010	 	| SoftVersion
+	MS Office Home and Student 2010		 	| SoftVersion
+	MS Office Enterprise 2010			 	| SoftVersion
+	
+MS Word										| Soft
+	MS Word 2010							| SoftVersion
+	
+MS Expression Studio						| Soft
+	MS Expression Studio 4					| SoftVersion
+	
+MS Expression Blend							| Soft
+	MS Expression Blend 4					| SoftVersion
+
+
+===============================================================================
+Не смотря на то, что это 2-а объекта - для пользователя это один программный продукт:
+MS Word
+	MS Word 2010
+
+Отдельная версия продукта (MS Word 2010) может входить в различные редакции других версий (может быть нескольких) продуктов.
+MS Office									| Soft
+	MS Office Professioanl Plus 2010	 	| SoftVersion
+		MS Word								| Soft
+			MS Word 2010					| SoftVersion
+			
+	MS Office Home and Student 2010		 	| SoftVersion
+		MS Word								| Soft
+			MS Word 2010					| SoftVersion
+			
+	MS Office Enterprise 2010			 	| SoftVersion
+		MS Word								| Soft
+			MS Word 2010					| SoftVersion

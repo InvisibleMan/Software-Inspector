@@ -14,6 +14,7 @@ urlpatterns = patterns('',
     (r'^admin/', include(admin.site.urls)),
     (r'^admin/doc/', include('django.contrib.admindocs.urls')),
     (r'^(?P<user_name>[a-zA-Z0-9\-]+)/$', 'www.views.user'),
+    (r'^api/programs', 'www.views.post_programs'),
     # Example:
     # (r'^myprogs/', include('myprogs.foo.urls')),
 
