@@ -46,7 +46,10 @@ def user(request, user_name):
         'soft_items':soft_items
     })
 
-        #try:
-        #    user = User.objects.get(email__exact='fairness@mail.ru')
-        #except:
-        #    pass
+def post_programs(request):
+    if request.method == 'POST':
+        print(request.POST)
+    else:
+        print("Wrong Request Method")
+        
+    return HttpResponse('Welcome to API!')

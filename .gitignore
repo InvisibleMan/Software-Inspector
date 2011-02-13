@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 *.pyc
 *.kpf
 *.db
 settings/mysettings.py
+=======
+*.pyc
+*.kpf
+*.komodoproject
+*.db
+settings/mysettings.py
+>>>>>>> 92f3c7c3f131be45e62c36ffe7d6aaee67bb81da
