@@ -80,18 +80,16 @@ INSTALLED_APPS = (
     'www'
 )
 
-from .mysettings import *
+#import mysettings
 
-"""
 try:
     import mysettings
 
     DATABASE_ENGINE = mysettings.DATABASE_ENGINE
     DATABASE_NAME = mysettings.DATABASE_NAME
-    DATABASE_USER = mysettings.DATABASE_USER
-    DATABASE_PASSWORD = mysettings.DATABASE_PASSWORD
+#    DATABASE_USER = mysettings.DATABASE_USER
+#    DATABASE_PASSWORD = mysettings.DATABASE_PASSWORD
     STATIC_DOC_ROOT = mysettings.STATIC_DOC_ROOT
     TEMPLATE_DIRS = (mysettings.TEMPLATE_DIRS)
 except:
     pass
-"""
