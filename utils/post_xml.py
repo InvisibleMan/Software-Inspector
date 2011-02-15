@@ -1,6 +1,8 @@
 import urllib2, sys
 
-file_name = 'request.xml'
+#file_name = 'request.xml'
+file_name = 'installed.programs.xml'
+
 len = len(sys.argv)
 if(len > 1):
 	file_name = sys.argv[1]
@@ -8,7 +10,8 @@ if(len > 1):
 with open(file_name, 'r') as f:
 	xml_string = f.read()
 
-url = 'http://127.0.0.1:8000/api/programs'
+#url = 'http://127.0.0.1:8000/api/programs'
+url = 'http://2.homer.cz8.ru/api/programs'
 
 req = urllib2.Request(url=url, 
 					  data=xml_string, 

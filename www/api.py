@@ -59,6 +59,6 @@ def parse_xml(request):
 	SoftLine.objects.all().delete()
 	for item in loader.items:
 		line = SoftLine.objects.create(name = item.name, version = item.version)
-		print("Item => '%s'\n" % item.name)
+		#print("Item => '%s'\n" % item.name)
 
 	return len(loader.items)
