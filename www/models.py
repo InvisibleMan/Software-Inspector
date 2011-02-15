@@ -29,3 +29,12 @@ class SoftVersion(models.Model):
 class SoftItem(models.Model):
     user = models.ForeignKey(User)
     soft_version = models.ForeignKey(SoftVersion)
+
+#тестовый вариант для загрузки
+class SoftLine(models.Model):
+    name = models.CharField(max_length=50)
+    version = models.CharField(max_length=50)
+
+    def __unicode__(self):
+        return self.name
+	

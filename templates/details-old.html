@@ -27,7 +27,8 @@
 		<ul>
 		{% for item in soft_items %}
 			<li>
-				<div><strong>{{ item.name|safe }}</strong> ({{ item.version|safe }})</div>
+				<div><strong>{{ item.soft_version.name|safe }}</strong></div>
+				<div><a href="{{ item.soft_version.soft.url}}">{{ item.soft_version.soft.vendor|safe }}</a></em></div>
 			</li>
 		{% endfor %}
 		</ul>

@@ -1,4 +1,4 @@
-# Django settings for myprogs project.
+# -*- coding: utf-8 -*-
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -90,6 +90,7 @@ try:
 #    DATABASE_USER = mysettings.DATABASE_USER
 #    DATABASE_PASSWORD = mysettings.DATABASE_PASSWORD
     STATIC_DOC_ROOT = mysettings.STATIC_DOC_ROOT
-    TEMPLATE_DIRS = (mysettings.TEMPLATE_DIRS)
+    TEMPLATE_DIRS = mysettings.TEMPLATE_DIRS
 except:
     pass
+
