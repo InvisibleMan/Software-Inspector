@@ -32,6 +32,10 @@ namespace SofinsCommon {
         
         private UsersDataTable tableUsers;
         
+        private KnownVendorsDataTable tableKnownVendors;
+        
+        private ProfessionsDataTable tableProfessions;
+        
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -71,6 +75,12 @@ namespace SofinsCommon {
                 }
                 if ((ds.Tables["Users"] != null)) {
                     base.Tables.Add(new UsersDataTable(ds.Tables["Users"]));
+                }
+                if ((ds.Tables["KnownVendors"] != null)) {
+                    base.Tables.Add(new KnownVendorsDataTable(ds.Tables["KnownVendors"]));
+                }
+                if ((ds.Tables["Professions"] != null)) {
+                    base.Tables.Add(new ProfessionsDataTable(ds.Tables["Professions"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -127,6 +137,26 @@ namespace SofinsCommon {
         public UsersDataTable Users {
             get {
                 return this.tableUsers;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public KnownVendorsDataTable KnownVendors {
+            get {
+                return this.tableKnownVendors;
+            }
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        [global::System.ComponentModel.Browsable(false)]
+        [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
+        public ProfessionsDataTable Professions {
+            get {
+                return this.tableProfessions;
             }
         }
         
@@ -209,6 +239,12 @@ namespace SofinsCommon {
                 if ((ds.Tables["Users"] != null)) {
                     base.Tables.Add(new UsersDataTable(ds.Tables["Users"]));
                 }
+                if ((ds.Tables["KnownVendors"] != null)) {
+                    base.Tables.Add(new KnownVendorsDataTable(ds.Tables["KnownVendors"]));
+                }
+                if ((ds.Tables["Professions"] != null)) {
+                    base.Tables.Add(new ProfessionsDataTable(ds.Tables["Professions"]));
+                }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
                 this.Namespace = ds.Namespace;
@@ -266,6 +302,18 @@ namespace SofinsCommon {
                     this.tableUsers.InitVars();
                 }
             }
+            this.tableKnownVendors = ((KnownVendorsDataTable)(base.Tables["KnownVendors"]));
+            if ((initTable == true)) {
+                if ((this.tableKnownVendors != null)) {
+                    this.tableKnownVendors.InitVars();
+                }
+            }
+            this.tableProfessions = ((ProfessionsDataTable)(base.Tables["Professions"]));
+            if ((initTable == true)) {
+                if ((this.tableProfessions != null)) {
+                    this.tableProfessions.InitVars();
+                }
+            }
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -284,6 +332,32 @@ namespace SofinsCommon {
             base.Tables.Add(this.tableKnownSoftwareRelations);
             this.tableUsers = new UsersDataTable();
             base.Tables.Add(this.tableUsers);
+            this.tableKnownVendors = new KnownVendorsDataTable();
+            base.Tables.Add(this.tableKnownVendors);
+            this.tableProfessions = new ProfessionsDataTable();
+            base.Tables.Add(this.tableProfessions);
+            global::System.Data.ForeignKeyConstraint fkc;
+            fkc = new global::System.Data.ForeignKeyConstraint("FK_Users_InstalledSoftware", new global::System.Data.DataColumn[] {
+                        this.tableUsers.IDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableInstalledSoftware.iUserIDColumn});
+            this.tableInstalledSoftware.Constraints.Add(fkc);
+            fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
+            fkc.DeleteRule = global::System.Data.Rule.Cascade;
+            fkc.UpdateRule = global::System.Data.Rule.Cascade;
+            fkc = new global::System.Data.ForeignKeyConstraint("FK_KnownVendors_KnownSoftware", new global::System.Data.DataColumn[] {
+                        this.tableKnownVendors.IDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableKnownSoftware.iVendorIDColumn});
+            this.tableKnownSoftware.Constraints.Add(fkc);
+            fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
+            fkc.DeleteRule = global::System.Data.Rule.Cascade;
+            fkc.UpdateRule = global::System.Data.Rule.Cascade;
+            fkc = new global::System.Data.ForeignKeyConstraint("FK_Professions_Users", new global::System.Data.DataColumn[] {
+                        this.tableProfessions.IDColumn}, new global::System.Data.DataColumn[] {
+                        this.tableUsers.IDColumn});
+            this.tableUsers.Constraints.Add(fkc);
+            fkc.AcceptRejectRule = global::System.Data.AcceptRejectRule.None;
+            fkc.DeleteRule = global::System.Data.Rule.Cascade;
+            fkc.UpdateRule = global::System.Data.Rule.Cascade;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -307,6 +381,18 @@ namespace SofinsCommon {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private bool ShouldSerializeUsers() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private bool ShouldSerializeKnownVendors() {
+            return false;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        private bool ShouldSerializeProfessions() {
             return false;
         }
         
@@ -377,12 +463,22 @@ namespace SofinsCommon {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         public delegate void UsersRowChangeEventHandler(object sender, UsersRowChangeEvent e);
         
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public delegate void KnownVendorsRowChangeEventHandler(object sender, KnownVendorsRowChangeEvent e);
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public delegate void ProfessionsRowChangeEventHandler(object sender, ProfessionsRowChangeEvent e);
+        
         /// <summary>
         ///Represents the strongly named DataTable class.
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class InstalledSoftwareDataTable : global::System.Data.TypedTableBase<InstalledSoftwareRow> {
+            
+            private global::System.Data.DataColumn columniUserID;
+            
+            private global::System.Data.DataColumn columnsHostname;
             
             private global::System.Data.DataColumn columnsName;
             
@@ -423,6 +519,22 @@ namespace SofinsCommon {
             protected InstalledSoftwareDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn iUserIDColumn {
+                get {
+                    return this.columniUserID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sHostnameColumn {
+                get {
+                    return this.columnsHostname;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -494,9 +606,11 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public InstalledSoftwareRow AddInstalledSoftwareRow(string sName, string sVersion, bool bRemoved, bool bHidden) {
+            public InstalledSoftwareRow AddInstalledSoftwareRow(int iUserID, string sHostname, string sName, string sVersion, bool bRemoved, bool bHidden) {
                 InstalledSoftwareRow rowInstalledSoftwareRow = ((InstalledSoftwareRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
+                        iUserID,
+                        sHostname,
                         sName,
                         sVersion,
                         bRemoved,
@@ -504,6 +618,16 @@ namespace SofinsCommon {
                 rowInstalledSoftwareRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowInstalledSoftwareRow);
                 return rowInstalledSoftwareRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public InstalledSoftwareRow FindBysVersionsNamesHostnameiUserID(string sVersion, string sName, string sHostname, int iUserID) {
+                return ((InstalledSoftwareRow)(this.Rows.Find(new object[] {
+                            sVersion,
+                            sName,
+                            sHostname,
+                            iUserID})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -523,6 +647,8 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
+                this.columniUserID = base.Columns["iUserID"];
+                this.columnsHostname = base.Columns["sHostname"];
                 this.columnsName = base.Columns["sName"];
                 this.columnsVersion = base.Columns["sVersion"];
                 this.columnbRemoved = base.Columns["bRemoved"];
@@ -532,6 +658,10 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
+                this.columniUserID = new global::System.Data.DataColumn("iUserID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniUserID);
+                this.columnsHostname = new global::System.Data.DataColumn("sHostname", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsHostname);
                 this.columnsName = new global::System.Data.DataColumn("sName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsName);
                 this.columnsVersion = new global::System.Data.DataColumn("sVersion", typeof(string), null, global::System.Data.MappingType.Element);
@@ -543,7 +673,15 @@ namespace SofinsCommon {
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("NameAndVersion", new global::System.Data.DataColumn[] {
                                 this.columnsName,
                                 this.columnsVersion}, false));
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnsVersion,
+                                this.columnsName,
+                                this.columnsHostname,
+                                this.columniUserID}, true));
+                this.columniUserID.AllowDBNull = false;
+                this.columnsHostname.AllowDBNull = false;
                 this.columnsName.AllowDBNull = false;
+                this.columnsVersion.AllowDBNull = false;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -677,9 +815,9 @@ namespace SofinsCommon {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class KnownSoftwareDataTable : global::System.Data.TypedTableBase<KnownSoftwareRow> {
             
-            private global::System.Data.DataColumn columnprogGUID;
+            private global::System.Data.DataColumn columniProgramID;
             
-            private global::System.Data.DataColumn columnsVendorName;
+            private global::System.Data.DataColumn columniVendorID;
             
             private global::System.Data.DataColumn columnsProgramName;
             
@@ -687,7 +825,7 @@ namespace SofinsCommon {
             
             private global::System.Data.DataColumn columnsLanguage;
             
-            private global::System.Data.DataColumn columnsVendorURL;
+            private global::System.Data.DataColumn columnsProductPage;
             
             private global::System.Data.DataColumn columnsProgramDownloadURL;
             
@@ -744,17 +882,17 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn progGUIDColumn {
+            public global::System.Data.DataColumn iProgramIDColumn {
                 get {
-                    return this.columnprogGUID;
+                    return this.columniProgramID;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn sVendorNameColumn {
+            public global::System.Data.DataColumn iVendorIDColumn {
                 get {
-                    return this.columnsVendorName;
+                    return this.columniVendorID;
                 }
             }
             
@@ -784,9 +922,9 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn sVendorURLColumn {
+            public global::System.Data.DataColumn sProductPageColumn {
                 get {
-                    return this.columnsVendorURL;
+                    return this.columnsProductPage;
                 }
             }
             
@@ -908,12 +1046,12 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public KnownSoftwareRow AddKnownSoftwareRow(
-                        System.Guid progGUID, 
-                        string sVendorName, 
+                        int iProgramID, 
+                        int iVendorID, 
                         string sProgramName, 
                         string sVersion, 
                         string sLanguage, 
-                        string sVendorURL, 
+                        string sProductPage, 
                         string sProgramDownloadURL, 
                         string bHidden, 
                         string bRemoved, 
@@ -926,12 +1064,12 @@ namespace SofinsCommon {
                         string sExtraInfo3) {
                 KnownSoftwareRow rowKnownSoftwareRow = ((KnownSoftwareRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        progGUID,
-                        sVendorName,
+                        iProgramID,
+                        iVendorID,
                         sProgramName,
                         sVersion,
                         sLanguage,
-                        sVendorURL,
+                        sProductPage,
                         sProgramDownloadURL,
                         bHidden,
                         bRemoved,
@@ -949,9 +1087,9 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public KnownSoftwareRow FindByprogGUID(System.Guid progGUID) {
+            public KnownSoftwareRow FindByiProgramID(int iProgramID) {
                 return ((KnownSoftwareRow)(this.Rows.Find(new object[] {
-                            progGUID})));
+                            iProgramID})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -971,12 +1109,12 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnprogGUID = base.Columns["progGUID"];
-                this.columnsVendorName = base.Columns["sVendorName"];
+                this.columniProgramID = base.Columns["iProgramID"];
+                this.columniVendorID = base.Columns["iVendorID"];
                 this.columnsProgramName = base.Columns["sProgramName"];
                 this.columnsVersion = base.Columns["sVersion"];
                 this.columnsLanguage = base.Columns["sLanguage"];
-                this.columnsVendorURL = base.Columns["sVendorURL"];
+                this.columnsProductPage = base.Columns["sProductPage"];
                 this.columnsProgramDownloadURL = base.Columns["sProgramDownloadURL"];
                 this.columnbHidden = base.Columns["bHidden"];
                 this.columnbRemoved = base.Columns["bRemoved"];
@@ -992,18 +1130,18 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnprogGUID = new global::System.Data.DataColumn("progGUID", typeof(global::System.Guid), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnprogGUID);
-                this.columnsVendorName = new global::System.Data.DataColumn("sVendorName", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnsVendorName);
+                this.columniProgramID = new global::System.Data.DataColumn("iProgramID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniProgramID);
+                this.columniVendorID = new global::System.Data.DataColumn("iVendorID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniVendorID);
                 this.columnsProgramName = new global::System.Data.DataColumn("sProgramName", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsProgramName);
                 this.columnsVersion = new global::System.Data.DataColumn("sVersion", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsVersion);
                 this.columnsLanguage = new global::System.Data.DataColumn("sLanguage", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsLanguage);
-                this.columnsVendorURL = new global::System.Data.DataColumn("sVendorURL", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnsVendorURL);
+                this.columnsProductPage = new global::System.Data.DataColumn("sProductPage", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsProductPage);
                 this.columnsProgramDownloadURL = new global::System.Data.DataColumn("sProgramDownloadURL", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsProgramDownloadURL);
                 this.columnbHidden = new global::System.Data.DataColumn("bHidden", typeof(string), null, global::System.Data.MappingType.Element);
@@ -1025,9 +1163,9 @@ namespace SofinsCommon {
                 this.columnsExtraInfo3 = new global::System.Data.DataColumn("sExtraInfo3", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsExtraInfo3);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnprogGUID}, true));
-                this.columnprogGUID.AllowDBNull = false;
-                this.columnprogGUID.Unique = true;
+                                this.columniProgramID}, true));
+                this.columniProgramID.AllowDBNull = false;
+                this.columniProgramID.Unique = true;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1161,11 +1299,11 @@ namespace SofinsCommon {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class KnownSoftwareRelationsDataTable : global::System.Data.TypedTableBase<KnownSoftwareRelationsRow> {
             
-            private global::System.Data.DataColumn columnworseProgGUID;
+            private global::System.Data.DataColumn columniWorseProgramID;
             
             private global::System.Data.DataColumn columnsRelationType;
             
-            private global::System.Data.DataColumn columnbetterProgGUID;
+            private global::System.Data.DataColumn columniBetterProgramID;
             
             private global::System.Data.DataColumn columnsComment;
             
@@ -1204,9 +1342,9 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn worseProgGUIDColumn {
+            public global::System.Data.DataColumn iWorseProgramIDColumn {
                 get {
-                    return this.columnworseProgGUID;
+                    return this.columniWorseProgramID;
                 }
             }
             
@@ -1220,9 +1358,9 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn betterProgGUIDColumn {
+            public global::System.Data.DataColumn iBetterProgramIDColumn {
                 get {
-                    return this.columnbetterProgGUID;
+                    return this.columniBetterProgramID;
                 }
             }
             
@@ -1271,12 +1409,12 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public KnownSoftwareRelationsRow AddKnownSoftwareRelationsRow(System.Guid worseProgGUID, string sRelationType, System.Guid betterProgGUID, string sComment) {
+            public KnownSoftwareRelationsRow AddKnownSoftwareRelationsRow(int iWorseProgramID, string sRelationType, int iBetterProgramID, string sComment) {
                 KnownSoftwareRelationsRow rowKnownSoftwareRelationsRow = ((KnownSoftwareRelationsRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        worseProgGUID,
+                        iWorseProgramID,
                         sRelationType,
-                        betterProgGUID,
+                        iBetterProgramID,
                         sComment};
                 rowKnownSoftwareRelationsRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowKnownSoftwareRelationsRow);
@@ -1300,21 +1438,21 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnworseProgGUID = base.Columns["worseProgGUID"];
+                this.columniWorseProgramID = base.Columns["iWorseProgramID"];
                 this.columnsRelationType = base.Columns["sRelationType"];
-                this.columnbetterProgGUID = base.Columns["betterProgGUID"];
+                this.columniBetterProgramID = base.Columns["iBetterProgramID"];
                 this.columnsComment = base.Columns["sComment"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnworseProgGUID = new global::System.Data.DataColumn("worseProgGUID", typeof(global::System.Guid), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnworseProgGUID);
+                this.columniWorseProgramID = new global::System.Data.DataColumn("iWorseProgramID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniWorseProgramID);
                 this.columnsRelationType = new global::System.Data.DataColumn("sRelationType", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsRelationType);
-                this.columnbetterProgGUID = new global::System.Data.DataColumn("betterProgGUID", typeof(global::System.Guid), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnbetterProgGUID);
+                this.columniBetterProgramID = new global::System.Data.DataColumn("iBetterProgramID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniBetterProgramID);
                 this.columnsComment = new global::System.Data.DataColumn("sComment", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsComment);
             }
@@ -1450,15 +1588,19 @@ namespace SofinsCommon {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class UsersDataTable : global::System.Data.TypedTableBase<UsersRow> {
             
-            private global::System.Data.DataColumn columnsName;
+            private global::System.Data.DataColumn columnID;
+            
+            private global::System.Data.DataColumn columnsLoginName;
+            
+            private global::System.Data.DataColumn columnsFirstName;
+            
+            private global::System.Data.DataColumn columnsLastName;
             
             private global::System.Data.DataColumn columnsHostname1;
             
             private global::System.Data.DataColumn columnsHostname2;
             
             private global::System.Data.DataColumn columnsHostname3;
-            
-            private global::System.Data.DataColumn columnDataColumn1;
             
             private global::System.Data.DataColumn columnsEmail;
             
@@ -1467,6 +1609,16 @@ namespace SofinsCommon {
             private global::System.Data.DataColumn columnsOpenIDAccount;
             
             private global::System.Data.DataColumn columnsPasswordHash;
+            
+            private global::System.Data.DataColumn columniProfessionID1;
+            
+            private global::System.Data.DataColumn columniProfessionID2;
+            
+            private global::System.Data.DataColumn columniProfessionID3;
+            
+            private global::System.Data.DataColumn columnsLanguage;
+            
+            private global::System.Data.DataColumn columnsCountry;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -1503,9 +1655,33 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn sNameColumn {
+            public global::System.Data.DataColumn IDColumn {
                 get {
-                    return this.columnsName;
+                    return this.columnID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sLoginNameColumn {
+                get {
+                    return this.columnsLoginName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sFirstNameColumn {
+                get {
+                    return this.columnsFirstName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sLastNameColumn {
+                get {
+                    return this.columnsLastName;
                 }
             }
             
@@ -1530,14 +1706,6 @@ namespace SofinsCommon {
             public global::System.Data.DataColumn sHostname3Column {
                 get {
                     return this.columnsHostname3;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn DataColumn1Column {
-                get {
-                    return this.columnDataColumn1;
                 }
             }
             
@@ -1570,6 +1738,46 @@ namespace SofinsCommon {
             public global::System.Data.DataColumn sPasswordHashColumn {
                 get {
                     return this.columnsPasswordHash;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn iProfessionID1Column {
+                get {
+                    return this.columniProfessionID1;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn iProfessionID2Column {
+                get {
+                    return this.columniProfessionID2;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn iProfessionID3Column {
+                get {
+                    return this.columniProfessionID3;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sLanguageColumn {
+                get {
+                    return this.columnsLanguage;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sCountryColumn {
+                get {
+                    return this.columnsCountry;
                 }
             }
             
@@ -1610,18 +1818,41 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public UsersRow AddUsersRow(string sName, string sHostname1, string sHostname2, string sHostname3, string DataColumn1, string sEmail, string sOpenIDServer, string sOpenIDAccount, string sPasswordHash) {
+            public UsersRow AddUsersRow(
+                        int ID, 
+                        string sLoginName, 
+                        string sFirstName, 
+                        string sLastName, 
+                        string sHostname1, 
+                        string sHostname2, 
+                        string sHostname3, 
+                        string sEmail, 
+                        string sOpenIDServer, 
+                        string sOpenIDAccount, 
+                        string sPasswordHash, 
+                        int iProfessionID1, 
+                        int iProfessionID2, 
+                        int iProfessionID3, 
+                        string sLanguage, 
+                        string sCountry) {
                 UsersRow rowUsersRow = ((UsersRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        sName,
+                        ID,
+                        sLoginName,
+                        sFirstName,
+                        sLastName,
                         sHostname1,
                         sHostname2,
                         sHostname3,
-                        DataColumn1,
                         sEmail,
                         sOpenIDServer,
                         sOpenIDAccount,
-                        sPasswordHash};
+                        sPasswordHash,
+                        iProfessionID1,
+                        iProfessionID2,
+                        iProfessionID3,
+                        sLanguage,
+                        sCountry};
                 rowUsersRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowUsersRow);
                 return rowUsersRow;
@@ -1644,30 +1875,41 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnsName = base.Columns["sName"];
+                this.columnID = base.Columns["ID"];
+                this.columnsLoginName = base.Columns["sLoginName"];
+                this.columnsFirstName = base.Columns["sFirstName"];
+                this.columnsLastName = base.Columns["sLastName"];
                 this.columnsHostname1 = base.Columns["sHostname1"];
                 this.columnsHostname2 = base.Columns["sHostname2"];
                 this.columnsHostname3 = base.Columns["sHostname3"];
-                this.columnDataColumn1 = base.Columns["DataColumn1"];
                 this.columnsEmail = base.Columns["sEmail"];
                 this.columnsOpenIDServer = base.Columns["sOpenIDServer"];
                 this.columnsOpenIDAccount = base.Columns["sOpenIDAccount"];
                 this.columnsPasswordHash = base.Columns["sPasswordHash"];
+                this.columniProfessionID1 = base.Columns["iProfessionID1"];
+                this.columniProfessionID2 = base.Columns["iProfessionID2"];
+                this.columniProfessionID3 = base.Columns["iProfessionID3"];
+                this.columnsLanguage = base.Columns["sLanguage"];
+                this.columnsCountry = base.Columns["sCountry"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnsName = new global::System.Data.DataColumn("sName", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnsName);
+                this.columnID = new global::System.Data.DataColumn("ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID);
+                this.columnsLoginName = new global::System.Data.DataColumn("sLoginName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsLoginName);
+                this.columnsFirstName = new global::System.Data.DataColumn("sFirstName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsFirstName);
+                this.columnsLastName = new global::System.Data.DataColumn("sLastName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsLastName);
                 this.columnsHostname1 = new global::System.Data.DataColumn("sHostname1", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsHostname1);
                 this.columnsHostname2 = new global::System.Data.DataColumn("sHostname2", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsHostname2);
                 this.columnsHostname3 = new global::System.Data.DataColumn("sHostname3", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsHostname3);
-                this.columnDataColumn1 = new global::System.Data.DataColumn("DataColumn1", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDataColumn1);
                 this.columnsEmail = new global::System.Data.DataColumn("sEmail", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsEmail);
                 this.columnsOpenIDServer = new global::System.Data.DataColumn("sOpenIDServer", typeof(string), null, global::System.Data.MappingType.Element);
@@ -1676,6 +1918,19 @@ namespace SofinsCommon {
                 base.Columns.Add(this.columnsOpenIDAccount);
                 this.columnsPasswordHash = new global::System.Data.DataColumn("sPasswordHash", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnsPasswordHash);
+                this.columniProfessionID1 = new global::System.Data.DataColumn("iProfessionID1", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniProfessionID1);
+                this.columniProfessionID2 = new global::System.Data.DataColumn("iProfessionID2", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniProfessionID2);
+                this.columniProfessionID3 = new global::System.Data.DataColumn("iProfessionID3", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columniProfessionID3);
+                this.columnsLanguage = new global::System.Data.DataColumn("sLanguage", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsLanguage);
+                this.columnsCountry = new global::System.Data.DataColumn("sCountry", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsCountry);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnID}, false));
+                this.columnID.Unique = true;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1803,6 +2058,548 @@ namespace SofinsCommon {
         }
         
         /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class KnownVendorsDataTable : global::System.Data.TypedTableBase<KnownVendorsRow> {
+            
+            private global::System.Data.DataColumn columnID;
+            
+            private global::System.Data.DataColumn columnsName;
+            
+            private global::System.Data.DataColumn columnsWebSiteURL;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsDataTable() {
+                this.TableName = "KnownVendors";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal KnownVendorsDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected KnownVendorsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn IDColumn {
+                get {
+                    return this.columnID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sNameColumn {
+                get {
+                    return this.columnsName;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sWebSiteURLColumn {
+                get {
+                    return this.columnsWebSiteURL;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsRow this[int index] {
+                get {
+                    return ((KnownVendorsRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event KnownVendorsRowChangeEventHandler KnownVendorsRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event KnownVendorsRowChangeEventHandler KnownVendorsRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event KnownVendorsRowChangeEventHandler KnownVendorsRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event KnownVendorsRowChangeEventHandler KnownVendorsRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void AddKnownVendorsRow(KnownVendorsRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsRow AddKnownVendorsRow(int ID, string sName, string sWebSiteURL) {
+                KnownVendorsRow rowKnownVendorsRow = ((KnownVendorsRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        ID,
+                        sName,
+                        sWebSiteURL};
+                rowKnownVendorsRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowKnownVendorsRow);
+                return rowKnownVendorsRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                KnownVendorsDataTable cln = ((KnownVendorsDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new KnownVendorsDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal void InitVars() {
+                this.columnID = base.Columns["ID"];
+                this.columnsName = base.Columns["sName"];
+                this.columnsWebSiteURL = base.Columns["sWebSiteURL"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            private void InitClass() {
+                this.columnID = new global::System.Data.DataColumn("ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID);
+                this.columnsName = new global::System.Data.DataColumn("sName", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsName);
+                this.columnsWebSiteURL = new global::System.Data.DataColumn("sWebSiteURL", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsWebSiteURL);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnID}, false));
+                this.columnID.Unique = true;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsRow NewKnownVendorsRow() {
+                return ((KnownVendorsRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new KnownVendorsRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(KnownVendorsRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.KnownVendorsRowChanged != null)) {
+                    this.KnownVendorsRowChanged(this, new KnownVendorsRowChangeEvent(((KnownVendorsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.KnownVendorsRowChanging != null)) {
+                    this.KnownVendorsRowChanging(this, new KnownVendorsRowChangeEvent(((KnownVendorsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.KnownVendorsRowDeleted != null)) {
+                    this.KnownVendorsRowDeleted(this, new KnownVendorsRowChangeEvent(((KnownVendorsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.KnownVendorsRowDeleting != null)) {
+                    this.KnownVendorsRowDeleting(this, new KnownVendorsRowChangeEvent(((KnownVendorsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void RemoveKnownVendorsRow(KnownVendorsRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                SofinsDS ds = new SofinsDS();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "KnownVendorsDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
+        ///Represents the strongly named DataTable class.
+        ///</summary>
+        [global::System.Serializable()]
+        [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
+        public partial class ProfessionsDataTable : global::System.Data.TypedTableBase<ProfessionsRow> {
+            
+            private global::System.Data.DataColumn columnID;
+            
+            private global::System.Data.DataColumn columnsDescEng;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsDataTable() {
+                this.TableName = "Professions";
+                this.BeginInit();
+                this.InitClass();
+                this.EndInit();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal ProfessionsDataTable(global::System.Data.DataTable table) {
+                this.TableName = table.TableName;
+                if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
+                    this.CaseSensitive = table.CaseSensitive;
+                }
+                if ((table.Locale.ToString() != table.DataSet.Locale.ToString())) {
+                    this.Locale = table.Locale;
+                }
+                if ((table.Namespace != table.DataSet.Namespace)) {
+                    this.Namespace = table.Namespace;
+                }
+                this.Prefix = table.Prefix;
+                this.MinimumCapacity = table.MinimumCapacity;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected ProfessionsDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+                    base(info, context) {
+                this.InitVars();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn IDColumn {
+                get {
+                    return this.columnID;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataColumn sDescEngColumn {
+                get {
+                    return this.columnsDescEng;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            [global::System.ComponentModel.Browsable(false)]
+            public int Count {
+                get {
+                    return this.Rows.Count;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsRow this[int index] {
+                get {
+                    return ((ProfessionsRow)(this.Rows[index]));
+                }
+            }
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event ProfessionsRowChangeEventHandler ProfessionsRowChanging;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event ProfessionsRowChangeEventHandler ProfessionsRowChanged;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event ProfessionsRowChangeEventHandler ProfessionsRowDeleting;
+            
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public event ProfessionsRowChangeEventHandler ProfessionsRowDeleted;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void AddProfessionsRow(ProfessionsRow row) {
+                this.Rows.Add(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsRow AddProfessionsRow(int ID, string sDescEng) {
+                ProfessionsRow rowProfessionsRow = ((ProfessionsRow)(this.NewRow()));
+                object[] columnValuesArray = new object[] {
+                        ID,
+                        sDescEng};
+                rowProfessionsRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowProfessionsRow);
+                return rowProfessionsRow;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public override global::System.Data.DataTable Clone() {
+                ProfessionsDataTable cln = ((ProfessionsDataTable)(base.Clone()));
+                cln.InitVars();
+                return cln;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataTable CreateInstance() {
+                return new ProfessionsDataTable();
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal void InitVars() {
+                this.columnID = base.Columns["ID"];
+                this.columnsDescEng = base.Columns["sDescEng"];
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            private void InitClass() {
+                this.columnID = new global::System.Data.DataColumn("ID", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnID);
+                this.columnsDescEng = new global::System.Data.DataColumn("sDescEng", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnsDescEng);
+                this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
+                                this.columnID}, false));
+                this.columnID.Unique = true;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsRow NewProfessionsRow() {
+                return ((ProfessionsRow)(this.NewRow()));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
+                return new ProfessionsRow(builder);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override global::System.Type GetRowType() {
+                return typeof(ProfessionsRow);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanged(e);
+                if ((this.ProfessionsRowChanged != null)) {
+                    this.ProfessionsRowChanged(this, new ProfessionsRowChangeEvent(((ProfessionsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowChanging(e);
+                if ((this.ProfessionsRowChanging != null)) {
+                    this.ProfessionsRowChanging(this, new ProfessionsRowChangeEvent(((ProfessionsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleted(e);
+                if ((this.ProfessionsRowDeleted != null)) {
+                    this.ProfessionsRowDeleted(this, new ProfessionsRowChangeEvent(((ProfessionsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
+                base.OnRowDeleting(e);
+                if ((this.ProfessionsRowDeleting != null)) {
+                    this.ProfessionsRowDeleting(this, new ProfessionsRowChangeEvent(((ProfessionsRow)(e.Row)), e.Action));
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void RemoveProfessionsRow(ProfessionsRow row) {
+                this.Rows.Remove(row);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public static global::System.Xml.Schema.XmlSchemaComplexType GetTypedTableSchema(global::System.Xml.Schema.XmlSchemaSet xs) {
+                global::System.Xml.Schema.XmlSchemaComplexType type = new global::System.Xml.Schema.XmlSchemaComplexType();
+                global::System.Xml.Schema.XmlSchemaSequence sequence = new global::System.Xml.Schema.XmlSchemaSequence();
+                SofinsDS ds = new SofinsDS();
+                global::System.Xml.Schema.XmlSchemaAny any1 = new global::System.Xml.Schema.XmlSchemaAny();
+                any1.Namespace = "http://www.w3.org/2001/XMLSchema";
+                any1.MinOccurs = new decimal(0);
+                any1.MaxOccurs = decimal.MaxValue;
+                any1.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any1);
+                global::System.Xml.Schema.XmlSchemaAny any2 = new global::System.Xml.Schema.XmlSchemaAny();
+                any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1";
+                any2.MinOccurs = new decimal(1);
+                any2.ProcessContents = global::System.Xml.Schema.XmlSchemaContentProcessing.Lax;
+                sequence.Items.Add(any2);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute1 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute1.Name = "namespace";
+                attribute1.FixedValue = ds.Namespace;
+                type.Attributes.Add(attribute1);
+                global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
+                attribute2.Name = "tableTypeName";
+                attribute2.FixedValue = "ProfessionsDataTable";
+                type.Attributes.Add(attribute2);
+                type.Particle = sequence;
+                global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
+                if (xs.Contains(dsSchema.TargetNamespace)) {
+                    global::System.IO.MemoryStream s1 = new global::System.IO.MemoryStream();
+                    global::System.IO.MemoryStream s2 = new global::System.IO.MemoryStream();
+                    try {
+                        global::System.Xml.Schema.XmlSchema schema = null;
+                        dsSchema.Write(s1);
+                        for (global::System.Collections.IEnumerator schemas = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator(); schemas.MoveNext(); ) {
+                            schema = ((global::System.Xml.Schema.XmlSchema)(schemas.Current));
+                            s2.SetLength(0);
+                            schema.Write(s2);
+                            if ((s1.Length == s2.Length)) {
+                                s1.Position = 0;
+                                s2.Position = 0;
+                                for (; ((s1.Position != s1.Length) 
+                                            && (s1.ReadByte() == s2.ReadByte())); ) {
+                                    ;
+                                }
+                                if ((s1.Position == s1.Length)) {
+                                    return type;
+                                }
+                            }
+                        }
+                    }
+                    finally {
+                        if ((s1 != null)) {
+                            s1.Close();
+                        }
+                        if ((s2 != null)) {
+                            s2.Close();
+                        }
+                    }
+                }
+                xs.Add(dsSchema);
+                return type;
+            }
+        }
+        
+        /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
         public partial class InstalledSoftwareRow : global::System.Data.DataRow {
@@ -1814,6 +2611,28 @@ namespace SofinsCommon {
             internal InstalledSoftwareRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
                 this.tableInstalledSoftware = ((InstalledSoftwareDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int iUserID {
+                get {
+                    return ((int)(this[this.tableInstalledSoftware.iUserIDColumn]));
+                }
+                set {
+                    this[this.tableInstalledSoftware.iUserIDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sHostname {
+                get {
+                    return ((string)(this[this.tableInstalledSoftware.sHostnameColumn]));
+                }
+                set {
+                    this[this.tableInstalledSoftware.sHostnameColumn] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1831,12 +2650,7 @@ namespace SofinsCommon {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string sVersion {
                 get {
-                    try {
-                        return ((string)(this[this.tableInstalledSoftware.sVersionColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'sVersion\' in table \'InstalledSoftware\' is DBNull.", e);
-                    }
+                    return ((string)(this[this.tableInstalledSoftware.sVersionColumn]));
                 }
                 set {
                     this[this.tableInstalledSoftware.sVersionColumn] = value;
@@ -1873,18 +2687,6 @@ namespace SofinsCommon {
                 set {
                     this[this.tableInstalledSoftware.bHiddenColumn] = value;
                 }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IssVersionNull() {
-                return this.IsNull(this.tableInstalledSoftware.sVersionColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetsVersionNull() {
-                this[this.tableInstalledSoftware.sVersionColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1928,28 +2730,28 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public System.Guid progGUID {
+            public int iProgramID {
                 get {
-                    return ((global::System.Guid)(this[this.tableKnownSoftware.progGUIDColumn]));
+                    return ((int)(this[this.tableKnownSoftware.iProgramIDColumn]));
                 }
                 set {
-                    this[this.tableKnownSoftware.progGUIDColumn] = value;
+                    this[this.tableKnownSoftware.iProgramIDColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string sVendorName {
+            public int iVendorID {
                 get {
                     try {
-                        return ((string)(this[this.tableKnownSoftware.sVendorNameColumn]));
+                        return ((int)(this[this.tableKnownSoftware.iVendorIDColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'sVendorName\' in table \'KnownSoftware\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'iVendorID\' in table \'KnownSoftware\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableKnownSoftware.sVendorNameColumn] = value;
+                    this[this.tableKnownSoftware.iVendorIDColumn] = value;
                 }
             }
             
@@ -2003,17 +2805,17 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string sVendorURL {
+            public string sProductPage {
                 get {
                     try {
-                        return ((string)(this[this.tableKnownSoftware.sVendorURLColumn]));
+                        return ((string)(this[this.tableKnownSoftware.sProductPageColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'sVendorURL\' in table \'KnownSoftware\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'sProductPage\' in table \'KnownSoftware\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableKnownSoftware.sVendorURLColumn] = value;
+                    this[this.tableKnownSoftware.sProductPageColumn] = value;
                 }
             }
             
@@ -2179,14 +2981,14 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IssVendorNameNull() {
-                return this.IsNull(this.tableKnownSoftware.sVendorNameColumn);
+            public bool IsiVendorIDNull() {
+                return this.IsNull(this.tableKnownSoftware.iVendorIDColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetsVendorNameNull() {
-                this[this.tableKnownSoftware.sVendorNameColumn] = global::System.Convert.DBNull;
+            public void SetiVendorIDNull() {
+                this[this.tableKnownSoftware.iVendorIDColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2227,14 +3029,14 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IssVendorURLNull() {
-                return this.IsNull(this.tableKnownSoftware.sVendorURLColumn);
+            public bool IssProductPageNull() {
+                return this.IsNull(this.tableKnownSoftware.sProductPageColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetsVendorURLNull() {
-                this[this.tableKnownSoftware.sVendorURLColumn] = global::System.Convert.DBNull;
+            public void SetsProductPageNull() {
+                this[this.tableKnownSoftware.sProductPageColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2374,18 +3176,18 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public System.Guid worseProgGUID {
+            public int iWorseProgramID {
                 get {
                     try {
-                        return ((global::System.Guid)(this[this.tableKnownSoftwareRelations.worseProgGUIDColumn]));
+                        return ((int)(this[this.tableKnownSoftwareRelations.iWorseProgramIDColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'worseProgGUID\' in table \'KnownSoftwareRelations\' is DBNull." +
-                                "", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'iWorseProgramID\' in table \'KnownSoftwareRelations\' is DBNul" +
+                                "l.", e);
                     }
                 }
                 set {
-                    this[this.tableKnownSoftwareRelations.worseProgGUIDColumn] = value;
+                    this[this.tableKnownSoftwareRelations.iWorseProgramIDColumn] = value;
                 }
             }
             
@@ -2408,18 +3210,18 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public System.Guid betterProgGUID {
+            public int iBetterProgramID {
                 get {
                     try {
-                        return ((global::System.Guid)(this[this.tableKnownSoftwareRelations.betterProgGUIDColumn]));
+                        return ((int)(this[this.tableKnownSoftwareRelations.iBetterProgramIDColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'betterProgGUID\' in table \'KnownSoftwareRelations\' is DBNull" +
-                                ".", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'iBetterProgramID\' in table \'KnownSoftwareRelations\' is DBNu" +
+                                "ll.", e);
                     }
                 }
                 set {
-                    this[this.tableKnownSoftwareRelations.betterProgGUIDColumn] = value;
+                    this[this.tableKnownSoftwareRelations.iBetterProgramIDColumn] = value;
                 }
             }
             
@@ -2441,14 +3243,14 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsworseProgGUIDNull() {
-                return this.IsNull(this.tableKnownSoftwareRelations.worseProgGUIDColumn);
+            public bool IsiWorseProgramIDNull() {
+                return this.IsNull(this.tableKnownSoftwareRelations.iWorseProgramIDColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetworseProgGUIDNull() {
-                this[this.tableKnownSoftwareRelations.worseProgGUIDColumn] = global::System.Convert.DBNull;
+            public void SetiWorseProgramIDNull() {
+                this[this.tableKnownSoftwareRelations.iWorseProgramIDColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2465,14 +3267,14 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsbetterProgGUIDNull() {
-                return this.IsNull(this.tableKnownSoftwareRelations.betterProgGUIDColumn);
+            public bool IsiBetterProgramIDNull() {
+                return this.IsNull(this.tableKnownSoftwareRelations.iBetterProgramIDColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetbetterProgGUIDNull() {
-                this[this.tableKnownSoftwareRelations.betterProgGUIDColumn] = global::System.Convert.DBNull;
+            public void SetiBetterProgramIDNull() {
+                this[this.tableKnownSoftwareRelations.iBetterProgramIDColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2504,17 +3306,65 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string sName {
+            public int ID {
                 get {
                     try {
-                        return ((string)(this[this.tableUsers.sNameColumn]));
+                        return ((int)(this[this.tableUsers.IDColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'sName\' in table \'Users\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'ID\' in table \'Users\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableUsers.sNameColumn] = value;
+                    this[this.tableUsers.IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sLoginName {
+                get {
+                    try {
+                        return ((string)(this[this.tableUsers.sLoginNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sLoginName\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.sLoginNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sFirstName {
+                get {
+                    try {
+                        return ((string)(this[this.tableUsers.sFirstNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sFirstName\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.sFirstNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sLastName {
+                get {
+                    try {
+                        return ((string)(this[this.tableUsers.sLastNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sLastName\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.sLastNameColumn] = value;
                 }
             }
             
@@ -2563,22 +3413,6 @@ namespace SofinsCommon {
                 }
                 set {
                     this[this.tableUsers.sHostname3Column] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string DataColumn1 {
-                get {
-                    try {
-                        return ((string)(this[this.tableUsers.DataColumn1Column]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'DataColumn1\' in table \'Users\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableUsers.DataColumn1Column] = value;
                 }
             }
             
@@ -2648,14 +3482,130 @@ namespace SofinsCommon {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IssNameNull() {
-                return this.IsNull(this.tableUsers.sNameColumn);
+            public int iProfessionID1 {
+                get {
+                    try {
+                        return ((int)(this[this.tableUsers.iProfessionID1Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'iProfessionID1\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.iProfessionID1Column] = value;
+                }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetsNameNull() {
-                this[this.tableUsers.sNameColumn] = global::System.Convert.DBNull;
+            public int iProfessionID2 {
+                get {
+                    try {
+                        return ((int)(this[this.tableUsers.iProfessionID2Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'iProfessionID2\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.iProfessionID2Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int iProfessionID3 {
+                get {
+                    try {
+                        return ((int)(this[this.tableUsers.iProfessionID3Column]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'iProfessionID3\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.iProfessionID3Column] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sLanguage {
+                get {
+                    try {
+                        return ((string)(this[this.tableUsers.sLanguageColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sLanguage\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.sLanguageColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sCountry {
+                get {
+                    try {
+                        return ((string)(this[this.tableUsers.sCountryColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sCountry\' in table \'Users\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableUsers.sCountryColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsIDNull() {
+                return this.IsNull(this.tableUsers.IDColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetIDNull() {
+                this[this.tableUsers.IDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssLoginNameNull() {
+                return this.IsNull(this.tableUsers.sLoginNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsLoginNameNull() {
+                this[this.tableUsers.sLoginNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssFirstNameNull() {
+                return this.IsNull(this.tableUsers.sFirstNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsFirstNameNull() {
+                this[this.tableUsers.sFirstNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssLastNameNull() {
+                return this.IsNull(this.tableUsers.sLastNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsLastNameNull() {
+                this[this.tableUsers.sLastNameColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2692,18 +3642,6 @@ namespace SofinsCommon {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetsHostname3Null() {
                 this[this.tableUsers.sHostname3Column] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsDataColumn1Null() {
-                return this.IsNull(this.tableUsers.DataColumn1Column);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetDataColumn1Null() {
-                this[this.tableUsers.DataColumn1Column] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -2752,6 +3690,236 @@ namespace SofinsCommon {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetsPasswordHashNull() {
                 this[this.tableUsers.sPasswordHashColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsiProfessionID1Null() {
+                return this.IsNull(this.tableUsers.iProfessionID1Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetiProfessionID1Null() {
+                this[this.tableUsers.iProfessionID1Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsiProfessionID2Null() {
+                return this.IsNull(this.tableUsers.iProfessionID2Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetiProfessionID2Null() {
+                this[this.tableUsers.iProfessionID2Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsiProfessionID3Null() {
+                return this.IsNull(this.tableUsers.iProfessionID3Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetiProfessionID3Null() {
+                this[this.tableUsers.iProfessionID3Column] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssLanguageNull() {
+                return this.IsNull(this.tableUsers.sLanguageColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsLanguageNull() {
+                this[this.tableUsers.sLanguageColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssCountryNull() {
+                return this.IsNull(this.tableUsers.sCountryColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsCountryNull() {
+                this[this.tableUsers.sCountryColumn] = global::System.Convert.DBNull;
+            }
+        }
+        
+        /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class KnownVendorsRow : global::System.Data.DataRow {
+            
+            private KnownVendorsDataTable tableKnownVendors;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal KnownVendorsRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableKnownVendors = ((KnownVendorsDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int ID {
+                get {
+                    try {
+                        return ((int)(this[this.tableKnownVendors.IDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ID\' in table \'KnownVendors\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableKnownVendors.IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sName {
+                get {
+                    try {
+                        return ((string)(this[this.tableKnownVendors.sNameColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sName\' in table \'KnownVendors\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableKnownVendors.sNameColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sWebSiteURL {
+                get {
+                    try {
+                        return ((string)(this[this.tableKnownVendors.sWebSiteURLColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sWebSiteURL\' in table \'KnownVendors\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableKnownVendors.sWebSiteURLColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsIDNull() {
+                return this.IsNull(this.tableKnownVendors.IDColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetIDNull() {
+                this[this.tableKnownVendors.IDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssNameNull() {
+                return this.IsNull(this.tableKnownVendors.sNameColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsNameNull() {
+                this[this.tableKnownVendors.sNameColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssWebSiteURLNull() {
+                return this.IsNull(this.tableKnownVendors.sWebSiteURLColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsWebSiteURLNull() {
+                this[this.tableKnownVendors.sWebSiteURLColumn] = global::System.Convert.DBNull;
+            }
+        }
+        
+        /// <summary>
+        ///Represents strongly named DataRow class.
+        ///</summary>
+        public partial class ProfessionsRow : global::System.Data.DataRow {
+            
+            private ProfessionsDataTable tableProfessions;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            internal ProfessionsRow(global::System.Data.DataRowBuilder rb) : 
+                    base(rb) {
+                this.tableProfessions = ((ProfessionsDataTable)(this.Table));
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public int ID {
+                get {
+                    try {
+                        return ((int)(this[this.tableProfessions.IDColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'ID\' in table \'Professions\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableProfessions.IDColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public string sDescEng {
+                get {
+                    try {
+                        return ((string)(this[this.tableProfessions.sDescEngColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'sDescEng\' in table \'Professions\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableProfessions.sDescEngColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IsIDNull() {
+                return this.IsNull(this.tableProfessions.IDColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetIDNull() {
+                this[this.tableProfessions.IDColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public bool IssDescEngNull() {
+                return this.IsNull(this.tableProfessions.sDescEngColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public void SetsDescEngNull() {
+                this[this.tableProfessions.sDescEngColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -2877,6 +4045,74 @@ namespace SofinsCommon {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public UsersRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public class KnownVendorsRowChangeEvent : global::System.EventArgs {
+            
+            private KnownVendorsRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsRowChangeEvent(KnownVendorsRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public KnownVendorsRow Row {
+                get {
+                    return this.eventRow;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public global::System.Data.DataRowAction Action {
+                get {
+                    return this.eventAction;
+                }
+            }
+        }
+        
+        /// <summary>
+        ///Row event argument class
+        ///</summary>
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+        public class ProfessionsRowChangeEvent : global::System.EventArgs {
+            
+            private ProfessionsRow eventRow;
+            
+            private global::System.Data.DataRowAction eventAction;
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsRowChangeEvent(ProfessionsRow row, global::System.Data.DataRowAction action) {
+                this.eventRow = row;
+                this.eventAction = action;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
+            public ProfessionsRow Row {
                 get {
                     return this.eventRow;
                 }
