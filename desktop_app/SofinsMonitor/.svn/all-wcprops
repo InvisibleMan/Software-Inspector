@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Softin/!svn/ver/9/trunk/client/Software%20Inspector/SofinsMonitor
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Softin/!svn/ver/3/trunk/client/Software%20Inspector/SofinsMonitor/app.config
+END
+SofinsMonitor.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Softin/!svn/ver/3/trunk/client/Software%20Inspector/SofinsMonitor/SofinsMonitor.csproj
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Softin/!svn/ver/4/trunk/client/Software%20Inspector/SofinsMonitor/Program.cs
+END

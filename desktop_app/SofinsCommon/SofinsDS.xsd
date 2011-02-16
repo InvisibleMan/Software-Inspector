@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SofinsDS" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SofinsDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SofinsDS" msprop:Generator_UserDSName="SofinsDS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="InstalledSoftware" msprop:Generator_TableClassName="InstalledSoftwareDataTable" msprop:Generator_TableVarName="tableInstalledSoftware" msprop:Generator_TablePropName="InstalledSoftware" msprop:Generator_RowDeletingName="InstalledSoftwareRowDeleting" msprop:Generator_UserTableName="InstalledSoftware" msprop:Generator_RowChangingName="InstalledSoftwareRowChanging" msprop:Generator_RowEvHandlerName="InstalledSoftwareRowChangeEventHandler" msprop:Generator_RowDeletedName="InstalledSoftwareRowDeleted" msprop:Generator_RowEvArgName="InstalledSoftwareRowChangeEvent" msprop:Generator_RowChangedName="InstalledSoftwareRowChanged" msprop:Generator_RowClassName="InstalledSoftwareRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sName" msprop:Generator_ColumnVarNameInTable="columnsName" msprop:Generator_ColumnPropNameInRow="sName" msprop:Generator_ColumnPropNameInTable="sNameColumn" msprop:Generator_UserColumnName="sName" type="xs:string" />
+              <xs:element name="sVersion" msprop:Generator_ColumnVarNameInTable="columnsVersion" msprop:Generator_ColumnPropNameInRow="sVersion" msprop:Generator_ColumnPropNameInTable="sVersionColumn" msprop:Generator_UserColumnName="sVersion" type="xs:string" minOccurs="0" />
+              <xs:element name="bRemoved" msprop:Generator_ColumnVarNameInTable="columnbRemoved" msprop:Generator_ColumnPropNameInRow="bRemoved" msprop:Generator_ColumnPropNameInTable="bRemovedColumn" msprop:Generator_UserColumnName="bRemoved" type="xs:boolean" minOccurs="0" />
+              <xs:element name="bHidden" msprop:Generator_ColumnVarNameInTable="columnbHidden" msprop:Generator_ColumnPropNameInRow="bHidden" msprop:Generator_ColumnPropNameInTable="bHiddenColumn" msprop:Generator_UserColumnName="bHidden" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="NameAndVersion">
+      <xs:selector xpath=".//mstns:InstalledSoftware" />
+      <xs:field xpath="mstns:sName" />
+      <xs:field xpath="mstns:sVersion" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
