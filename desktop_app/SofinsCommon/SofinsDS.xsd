@@ -22,12 +22,63 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
+        <xs:element name="KnownSoftware" msprop:Generator_TableClassName="KnownSoftwareDataTable" msprop:Generator_TableVarName="tableKnownSoftware" msprop:Generator_TablePropName="KnownSoftware" msprop:Generator_RowDeletingName="KnownSoftwareRowDeleting" msprop:Generator_UserTableName="KnownSoftware" msprop:Generator_RowChangingName="KnownSoftwareRowChanging" msprop:Generator_RowEvHandlerName="KnownSoftwareRowChangeEventHandler" msprop:Generator_RowDeletedName="KnownSoftwareRowDeleted" msprop:Generator_RowEvArgName="KnownSoftwareRowChangeEvent" msprop:Generator_RowChangedName="KnownSoftwareRowChanged" msprop:Generator_RowClassName="KnownSoftwareRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="progGUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnprogGUID" msprop:Generator_ColumnPropNameInRow="progGUID" msprop:Generator_ColumnPropNameInTable="progGUIDColumn" msprop:Generator_UserColumnName="progGUID" type="xs:string" />
+              <xs:element name="sVendorName" msprop:Generator_ColumnVarNameInTable="columnsVendorName" msprop:Generator_ColumnPropNameInRow="sVendorName" msprop:Generator_ColumnPropNameInTable="sVendorNameColumn" msprop:Generator_UserColumnName="sVendorName" type="xs:string" minOccurs="0" />
+              <xs:element name="sProgramName" msprop:Generator_ColumnVarNameInTable="columnsProgramName" msprop:Generator_ColumnPropNameInRow="sProgramName" msprop:Generator_ColumnPropNameInTable="sProgramNameColumn" msprop:Generator_UserColumnName="sProgramName" type="xs:string" minOccurs="0" />
+              <xs:element name="sVersion" msprop:Generator_ColumnVarNameInTable="columnsVersion" msprop:Generator_ColumnPropNameInRow="sVersion" msprop:Generator_ColumnPropNameInTable="sVersionColumn" msprop:Generator_UserColumnName="sVersion" type="xs:string" minOccurs="0" />
+              <xs:element name="sLanguage" msprop:Generator_ColumnVarNameInTable="columnsLanguage" msprop:Generator_ColumnPropNameInRow="sLanguage" msprop:Generator_ColumnPropNameInTable="sLanguageColumn" msprop:Generator_UserColumnName="sLanguage" type="xs:string" minOccurs="0" />
+              <xs:element name="sVendorURL" msprop:Generator_ColumnVarNameInTable="columnsVendorURL" msprop:Generator_ColumnPropNameInRow="sVendorURL" msprop:Generator_ColumnPropNameInTable="sVendorURLColumn" msprop:Generator_UserColumnName="sVendorURL" type="xs:string" minOccurs="0" />
+              <xs:element name="sProgramDownloadURL" msprop:Generator_ColumnVarNameInTable="columnsProgramDownloadURL" msprop:Generator_ColumnPropNameInRow="sProgramDownloadURL" msprop:Generator_ColumnPropNameInTable="sProgramDownloadURLColumn" msprop:Generator_UserColumnName="sProgramDownloadURL" type="xs:string" minOccurs="0" />
+              <xs:element name="bHidden" msprop:Generator_ColumnVarNameInTable="columnbHidden" msprop:Generator_ColumnPropNameInRow="bHidden" msprop:Generator_ColumnPropNameInTable="bHiddenColumn" msprop:Generator_UserColumnName="bHidden" type="xs:string" minOccurs="0" />
+              <xs:element name="bRemoved" msprop:Generator_ColumnVarNameInTable="columnbRemoved" msprop:Generator_ColumnPropNameInRow="bRemoved" msprop:Generator_ColumnPropNameInTable="bRemovedColumn" msprop:Generator_UserColumnName="bRemoved" type="xs:string" minOccurs="0" />
+              <xs:element name="bFreeware" msprop:Generator_ColumnVarNameInTable="columnbFreeware" msprop:Generator_ColumnPropNameInRow="bFreeware" msprop:Generator_ColumnPropNameInTable="bFreewareColumn" msprop:Generator_UserColumnName="bFreeware" type="xs:string" minOccurs="0" />
+              <xs:element name="bTrialVerion" msprop:Generator_ColumnVarNameInTable="columnbTrialVerion" msprop:Generator_ColumnPropNameInRow="bTrialVerion" msprop:Generator_ColumnPropNameInTable="bTrialVerionColumn" msprop:Generator_UserColumnName="bTrialVerion" type="xs:string" minOccurs="0" />
+              <xs:element name="bOpenSource" msprop:Generator_ColumnVarNameInTable="columnbOpenSource" msprop:Generator_ColumnPropNameInRow="bOpenSource" msprop:Generator_ColumnPropNameInTable="bOpenSourceColumn" msprop:Generator_UserColumnName="bOpenSource" type="xs:string" minOccurs="0" />
+              <xs:element name="bObsolete" msprop:Generator_ColumnVarNameInTable="columnbObsolete" msprop:Generator_ColumnPropNameInRow="bObsolete" msprop:Generator_ColumnPropNameInTable="bObsoleteColumn" msprop:Generator_UserColumnName="bObsolete" type="xs:string" minOccurs="0" />
+              <xs:element name="sExtraInfo1" msprop:Generator_ColumnVarNameInTable="columnsExtraInfo1" msprop:Generator_ColumnPropNameInRow="sExtraInfo1" msprop:Generator_ColumnPropNameInTable="sExtraInfo1Column" msprop:Generator_UserColumnName="sExtraInfo1" type="xs:string" minOccurs="0" />
+              <xs:element name="sExtraInfo2" msprop:Generator_ColumnVarNameInTable="columnsExtraInfo2" msprop:Generator_ColumnPropNameInRow="sExtraInfo2" msprop:Generator_ColumnPropNameInTable="sExtraInfo2Column" msprop:Generator_UserColumnName="sExtraInfo2" type="xs:string" minOccurs="0" />
+              <xs:element name="sExtraInfo3" msprop:Generator_ColumnVarNameInTable="columnsExtraInfo3" msprop:Generator_ColumnPropNameInRow="sExtraInfo3" msprop:Generator_ColumnPropNameInTable="sExtraInfo3Column" msprop:Generator_UserColumnName="sExtraInfo3" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KnownSoftwareRelations" msprop:Generator_TableClassName="KnownSoftwareRelationsDataTable" msprop:Generator_TableVarName="tableKnownSoftwareRelations" msprop:Generator_TablePropName="KnownSoftwareRelations" msprop:Generator_RowDeletingName="KnownSoftwareRelationsRowDeleting" msprop:Generator_UserTableName="KnownSoftwareRelations" msprop:Generator_RowChangingName="KnownSoftwareRelationsRowChanging" msprop:Generator_RowEvHandlerName="KnownSoftwareRelationsRowChangeEventHandler" msprop:Generator_RowDeletedName="KnownSoftwareRelationsRowDeleted" msprop:Generator_RowEvArgName="KnownSoftwareRelationsRowChangeEvent" msprop:Generator_RowChangedName="KnownSoftwareRelationsRowChanged" msprop:Generator_RowClassName="KnownSoftwareRelationsRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="worseProgGUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnworseProgGUID" msprop:Generator_ColumnPropNameInRow="worseProgGUID" msprop:Generator_ColumnPropNameInTable="worseProgGUIDColumn" msprop:Generator_UserColumnName="worseProgGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="sRelationType" msprop:Generator_ColumnVarNameInTable="columnsRelationType" msprop:Generator_ColumnPropNameInRow="sRelationType" msprop:Generator_ColumnPropNameInTable="sRelationTypeColumn" msprop:Generator_UserColumnName="sRelationType" type="xs:string" minOccurs="0" />
+              <xs:element name="betterProgGUID" msdata:DataType="System.Guid, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_ColumnVarNameInTable="columnbetterProgGUID" msprop:Generator_ColumnPropNameInRow="betterProgGUID" msprop:Generator_ColumnPropNameInTable="betterProgGUIDColumn" msprop:Generator_UserColumnName="betterProgGUID" type="xs:string" minOccurs="0" />
+              <xs:element name="sComment" msprop:Generator_ColumnVarNameInTable="columnsComment" msprop:Generator_ColumnPropNameInRow="sComment" msprop:Generator_ColumnPropNameInTable="sCommentColumn" msprop:Generator_UserColumnName="sComment" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Users" msprop:Generator_TableClassName="UsersDataTable" msprop:Generator_TableVarName="tableUsers" msprop:Generator_TablePropName="Users" msprop:Generator_RowDeletingName="UsersRowDeleting" msprop:Generator_UserTableName="Users" msprop:Generator_RowChangingName="UsersRowChanging" msprop:Generator_RowEvHandlerName="UsersRowChangeEventHandler" msprop:Generator_RowDeletedName="UsersRowDeleted" msprop:Generator_RowEvArgName="UsersRowChangeEvent" msprop:Generator_RowChangedName="UsersRowChanged" msprop:Generator_RowClassName="UsersRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="sName" msprop:Generator_ColumnVarNameInTable="columnsName" msprop:Generator_ColumnPropNameInRow="sName" msprop:Generator_ColumnPropNameInTable="sNameColumn" msprop:Generator_UserColumnName="sName" type="xs:string" minOccurs="0" />
+              <xs:element name="sHostname1" msprop:Generator_ColumnVarNameInTable="columnsHostname1" msprop:Generator_ColumnPropNameInRow="sHostname1" msprop:Generator_ColumnPropNameInTable="sHostname1Column" msprop:Generator_UserColumnName="sHostname1" type="xs:string" minOccurs="0" />
+              <xs:element name="sHostname2" msprop:Generator_ColumnVarNameInTable="columnsHostname2" msprop:Generator_ColumnPropNameInRow="sHostname2" msprop:Generator_ColumnPropNameInTable="sHostname2Column" msprop:Generator_UserColumnName="sHostname2" type="xs:string" minOccurs="0" />
+              <xs:element name="sHostname3" msprop:Generator_ColumnVarNameInTable="columnsHostname3" msprop:Generator_ColumnPropNameInRow="sHostname3" msprop:Generator_ColumnPropNameInTable="sHostname3Column" msprop:Generator_UserColumnName="sHostname3" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+              <xs:element name="sEmail" msprop:Generator_ColumnVarNameInTable="columnsEmail" msprop:Generator_ColumnPropNameInRow="sEmail" msprop:Generator_ColumnPropNameInTable="sEmailColumn" msprop:Generator_UserColumnName="sEmail" type="xs:string" minOccurs="0" />
+              <xs:element name="sOpenIDServer" msprop:Generator_ColumnVarNameInTable="columnsOpenIDServer" msprop:Generator_ColumnPropNameInRow="sOpenIDServer" msprop:Generator_ColumnPropNameInTable="sOpenIDServerColumn" msprop:Generator_UserColumnName="sOpenIDServer" type="xs:string" minOccurs="0" />
+              <xs:element name="sOpenIDAccount" msprop:Generator_ColumnVarNameInTable="columnsOpenIDAccount" msprop:Generator_ColumnPropNameInRow="sOpenIDAccount" msprop:Generator_ColumnPropNameInTable="sOpenIDAccountColumn" msprop:Generator_UserColumnName="sOpenIDAccount" type="xs:string" minOccurs="0" />
+              <xs:element name="sPasswordHash" msprop:Generator_ColumnVarNameInTable="columnsPasswordHash" msprop:Generator_ColumnPropNameInRow="sPasswordHash" msprop:Generator_ColumnPropNameInTable="sPasswordHashColumn" msprop:Generator_UserColumnName="sPasswordHash" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
       </xs:choice>
     </xs:complexType>
     <xs:unique name="NameAndVersion">
       <xs:selector xpath=".//mstns:InstalledSoftware" />
       <xs:field xpath="mstns:sName" />
       <xs:field xpath="mstns:sVersion" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:KnownSoftware" />
+      <xs:field xpath="mstns:progGUID" />
     </xs:unique>
   </xs:element>
 </xs:schema>

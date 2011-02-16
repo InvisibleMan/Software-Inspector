@@ -1,0 +1,693 @@
+<?xml version="1.0" standalone="yes"?>
+<SofinsDS xmlns="http://tempuri.org/DataSet1.xsd">
+  <InstalledSoftware>
+    <sName>Adobe AIR</sName>
+    <sVersion>2.5.1.17730</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 ActiveX</sName>
+    <sVersion>10.0.32.18</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Flash Player 10 Plugin</sName>
+    <sVersion>10.2.152.26</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Shockwave Player 11.5</sName>
+    <sVersion>11.5.9.615</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>AVPlayer and Plugins 3.1.1</sName>
+    <sVersion>3.1.1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>AVPlayer and Plugins 3.1.0</sName>
+    <sVersion>3.1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Combined Community Codec Pack 2009-09-09</sName>
+    <sVersion>2009.09.09.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>DAEMON Tools Toolbar</sName>
+    <sVersion>1.0.8.0552</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Haali Media Splitter</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Lame ACM MP3 Codec</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MeGUI modern media encoder (remove only)</sName>
+    <sVersion>0.3.1.1006</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Client Profile</sName>
+    <sVersion>4.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Extended</sName>
+    <sVersion>4.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Help Viewer 1.0</sName>
+    <sVersion>1.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Team Foundation Server 2010 Object Model - ENU</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Tools for Office Runtime (x86)</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio Macro Tools</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>NVIDIA Drivers</sName>
+    <sVersion>1.10</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>OpenAL</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>System Requirements Lab</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>VobSub v2.23 (Remove Only)</sName>
+    <sVersion>2.23</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Основные компоненты Windows Live</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Xvid 1.2.2 final uninstall</sName>
+    <sVersion>1.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC90_ATL_x86</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Office Developer Tools (x86)</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Mesh</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC90_CRT_x86</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Security Update for Microsoft .NET Framework 4 Extended (KB2416472)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Installer</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Apple Application Support</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Adobe Community Help</sName>
+    <sVersion>3.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Data-Tier Application Framework</sName>
+    <sVersion>10.50.1447.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC80_ATL_x86</sName>
+    <sVersion>8.0.50727.4053</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Web Deployment Tool</sName>
+    <sVersion>1.1.0618</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Visual Studio 2010 Tools for SQL Server Compact 3.5 SP2 ENU</sName>
+    <sVersion>4.0.8080.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 ADO.NET Entity Framework Tools</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Photo Common</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft ASP.NET MVC 2</sName>
+    <sVersion>2.0.50217.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Remote Client</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4148</sName>
+    <sVersion>9.0.30729.4148</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Junk Mail filter update</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live SOXE Definitions</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Silverlight 3 SDK</sName>
+    <sVersion>3.0.40818.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Remote Service</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java(TM) 6 Update 23</sName>
+    <sVersion>6.0.230</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server System CLR Types</sName>
+    <sVersion>10.50.1447.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 SharePoint Developer Tools</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Photo Gallery</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Google Talk Plugin</sName>
+    <sVersion>1.8.0.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Compact 3.5 SP2 ENU</sName>
+    <sVersion>3.5.8080.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft ASP.NET MVC 2 - Visual Studio 2010 Tools</sName>
+    <sVersion>2.0.50217.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Dotfuscator Software Services - Community Edition</sName>
+    <sVersion>5.0.2300.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Python 2.6.5</sName>
+    <sVersion>2.6.5150</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Java Auto Updater</sName>
+    <sVersion>2.0.2.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live PIMT Platform</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Management Objects</sName>
+    <sVersion>10.50.1447.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>ActiveState Komodo Edit 6.1.0</sName>
+    <sVersion>6.1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live ID Sign-in Assistant</sName>
+    <sVersion>7.250.4225.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC90_MFC_x86</sName>
+    <sVersion>1.00.0000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live SOXE</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Apple Software Update</sName>
+    <sVersion>2.1.1.116</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2010  x86 Runtime - 10.0.30319</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual F# 2.0 Runtime</sName>
+    <sVersion>10.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Transact-SQL Language Service</sName>
+    <sVersion>10.50.1447.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Remote Client Resources</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Writer Resources</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Silverlight</sName>
+    <sVersion>4.0.51204.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Mesh Runtime</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>MSVCRT</sName>
+    <sVersion>15.4.2862.0708</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Definition update for Microsoft Office 2010 (KB982726)</sName>
+    <sVersion />
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (French) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proof (Spanish) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Proofing (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office InfoPath MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Shared MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office OneNote MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Groove MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Shared Setup Metadata MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Access Setup Metadata MUI (English) 2010</sName>
+    <sVersion>14.0.4734.1000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Центр устройств Windows Mobile</sName>
+    <sVersion>6.1.6965.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC80_CRT_x86</sName>
+    <sVersion>8.0.50727.4053</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Application Error Reporting</sName>
+    <sVersion>12.0.6012.5000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Office Outlook Connector</sName>
+    <sVersion>14.0.5118.5000</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual Studio 2010 Tools for Office Runtime (x86)</sName>
+    <sVersion>10.0.30322</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Update for Microsoft Visual Studio 2010 Tools for Office Runtime (x86) (KB982305)</sName>
+    <sVersion>1</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework SDK v1.0 SP1</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.17</sName>
+    <sVersion>9.0.30729</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Mail</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Writer</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>PDF Settings CS5</sName>
+    <sVersion>10.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Google Update Helper</sName>
+    <sVersion>1.2.183.39</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Crystal Reports for Visual Studio</sName>
+    <sVersion>12.51.0.240</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server Database Publishing Wizard 1.4</sName>
+    <sVersion>10.1.2512.8</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Vimeo Uploader</sName>
+    <sVersion>0.255</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live MIME IFilter</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Почта Windows Live</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.4974</sName>
+    <sVersion>9.0.30729.4974</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>H.264 Encoder 1.5</sName>
+    <sVersion>1.5</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Элемент управления Windows Live Mesh ActiveX для удаленных подключений</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework Runtime v1.0 SP1 (x86)</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live UX Platform</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft .NET Framework 4 Multi-Targeting Pack</sName>
+    <sVersion>4.0.30319</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Search Enhancement Pack</sName>
+    <sVersion>3.0.133.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC80_MFC_x86</sName>
+    <sVersion>8.0.50727.4053</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Remote Service Resources</sName>
+    <sVersion>15.4.5722.2</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live Communications Platform</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Windows Live UX Platform Language Pack</sName>
+    <sVersion>15.4.3502.0922</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft_VC80_MFCLOC_x86</sName>
+    <sVersion>8.0.50727.4053</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Services for ADO.NET v2.0 SP1 (x86)</sName>
+    <sVersion>2.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>D3DX10</sName>
+    <sVersion>15.4.2368.0902</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft SQL Server 2008 R2 Data-Tier Application Project</sName>
+    <sVersion>10.50.1447.4</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>USB Golf Fidget v1.0</sName>
+    <sVersion>1.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Sync Framework Services v1.0 SP1 (x86)</sName>
+    <sVersion>1.0.3010.0</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+  <InstalledSoftware>
+    <sName>Microsoft Visual C++ 2008 Redistributable - x86 9.0.21022</sName>
+    <sVersion>9.0.21022</sVersion>
+    <bRemoved>false</bRemoved>
+    <bHidden>false</bHidden>
+  </InstalledSoftware>
+</SofinsDS>

@@ -11,6 +11,8 @@ namespace SofinsCommon
     
     public partial class SofinsDS {
 
+
+
         /// <summary>
         /// Saves dataset to the application folder
         /// </summary>
@@ -52,11 +54,11 @@ namespace SofinsCommon
 
             try
             {
-                if (!di.Exists)
-                    return false;
-
                 if (fi == null)
                 {
+                  if (!di.Exists)
+                    return false;
+
                   FileInfo lastWrittenFile = null;
                   FileInfo[] fiArray = di.GetFiles("*.xml");
 
@@ -75,6 +77,9 @@ namespace SofinsCommon
                 }
                 else
                 {
+                  if (!fi.Exists)
+                    return false;
+
                   this.ReadXml(fi.FullName);
                   return true;
                 }
