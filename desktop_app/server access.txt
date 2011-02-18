@@ -1,17 +1,3 @@
-http://2.homer.cz8.ru/
-
-Nikolay:1
-из проги нужно постом слать xml-файл на адрес
-http://2.homer.cz8.ru/api/programs
-
-homer.cz8.ru
-homer : hJIxDPskBwOgjyGK
-www/site2/webapp
-
-https://github.com/InvisibleMan/Software-Inspector
-
-
-
 [11:45:13] Денис Ларионов: с GUI
 [11:45:36] Денис Ларионов: SmartGit
 [11:47:18] Денис Ларионов: или
