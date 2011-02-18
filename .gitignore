@@ -8,3 +8,5 @@ settings/mysettings.py
 *.svn-base
 *.user
 .komodotools/*
+all-wcprops
+entries
