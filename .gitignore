@@ -3,3 +3,8 @@
 *.komodoproject
 *.db
 settings/mysettings.py
+*.suo
+.svn
+*.svn-base
+*.user
+.komodotools/*
