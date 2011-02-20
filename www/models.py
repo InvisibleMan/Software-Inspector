@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from django.db import models
 from django.contrib.auth.models import User
-
+"""
 class KnownSoftware(models.Model):
 	iProgramID = models.PositiveIntegerField()
 	#тут тип надо сделать целый, с внешним ключом на KnownVendors.ID
@@ -25,18 +25,18 @@ class KnownSoftware(models.Model):
 	bObsolete = models.CharField(max_length=50)
 	sExtraInfo1 = models.CharField(max_length=50)
 	sExtraInfo2 = models.CharField(max_length=50)
-	sExtraInfo3 = models.CharField(max_length=50)
-    
-    def __unicode__(self):
-        return self.name
+	sExtraInfo3 =	models.CharField(max_length=50)
+
+	def __unicode__(self):
+		return self.name
 
 class KnownVendors(models.Model):
 	ID = models.PositiveIntegerField()
 	sName = models.CharField(max_length=50)
 	sWebSiteURL = models.URLField(verify_exists=False, null=True, blank=True)
-   
-    def __unicode__(self):
-        return self.name
+
+	def __unicode__(self):
+		return self.name
 
 class KnownSoftwareRelations(models.Model):
 	#тут тип надо сделать целый, с внешним ключом на KnownSoftware.iProgramID
@@ -45,9 +45,9 @@ class KnownSoftwareRelations(models.Model):
 	#тут тип надо сделать целый, с внешним ключом на KnownSoftware.iProgramID
 	iBetterProgramID = models.PositiveIntegerField()
 	sComment = models.CharField(max_length=50)
-   
-    def __unicode__(self):
-        return self.name
+
+	def __unicode__(self):
+		return self.name
 
 class Users(models.Model):
 	#тут тип надо сделать целый, с внешним ключом на KnownSoftware.iProgramID
@@ -59,7 +59,7 @@ class Users(models.Model):
 	sHostname2 = models.CharField(max_length=50)
 	sHostname3 = models.CharField(max_length=50)
 	sEmail = models.CharField(max_length=50)
-	sOpenIDServer = models.CharField(max_length=50)
+	sOpenIDServer =	models.CharField(max_length=50)
 	sOpenIDAccount = models.CharField(max_length=50)
 	sPasswordHash = models.CharField(max_length=50)
 	#тут тип надо сделать целый, с внешним ключом на Professions.ID
@@ -70,44 +70,45 @@ class Users(models.Model):
 	iProfessionID3 = models.PositiveIntegerField()
 	sLanguage = models.CharField(max_length=50)
 	sCountry = models.CharField(max_length=50)
-   
-    def __unicode__(self):
-        return self.name
+
+	def __unicode__(self):
+		return self.name
 
 class Users(models.Model):
 	#тут тип надо сделать целый, с внешним ключом на KnownSoftware.iProgramID
 	ID = models.PositiveIntegerField()
 	sDescEng = models.CharField(max_length=50)
-   
-    def __unicode__(self):
-        return self.name
-			
-		
-		
-		
+
+	def __unicode__(self):
+		return self.name
+"""
+
+"""
 class SoftVersion(models.Model):
-    name = models.CharField(max_length=50)
-    soft = models.ForeignKey(Soft)
-    url = models.URLField(verify_exists=False, null=True, blank=True)
-    download_url = models.URLField(verify_exists=False, null=True, blank=True)
-    price = models.DecimalField(max_digits=5, decimal_places=2)
-    version = models.CharField(max_length=10)
-    user_version = models.CharField(max_length=10)
-    # платформа
-    platform = models.PositiveIntegerField()
-    
-    def __unicode__(self):
-        return self.name
+	name = models.CharField(max_length=50)
+	soft = models.ForeignKey(Soft)
+	url = models.URLField(verify_exists=False, null=True, blank=True)
+	download_url = models.URLField(verify_exists=False, null=True, blank=True)
+	price =	models.DecimalField(max_digits=5, decimal_places=2)
+	version = models.CharField(max_length=10)
+	user_version = models.CharField(max_length=10)
+	# платформа
+	platform = models.PositiveIntegerField()
+	
+	def __unicode__(self):
+		return self.name
 
 class SoftItem(models.Model):
-    user = models.ForeignKey(User)
-    soft_version = models.ForeignKey(SoftVersion)
+	user = models.ForeignKey(User)
+	soft_version = models.ForeignKey(SoftVersion)
+"""
 
 #тестовый вариант для загрузки
 class SoftLine(models.Model):
-    name = models.CharField(max_length=50)
-    version = models.CharField(max_length=50)
+	name = models.CharField(max_length=50)
+	version = models.CharField(max_length=50)
+	user = models.ForeignKey(User)
 
-    def __unicode__(self):
-        return self.name
+	def __unicode__(self):
+		return self.name
 	

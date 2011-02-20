@@ -28,7 +28,22 @@
     {% else %}
         Welcome, new user. Please log in.
     {% endif %}
-    </div>
+    </div><br/>
+	
+	<div>
+	{% if users %}
+		Зарегистрированные пользователи:
+		<ul>
+		{% for u in users %}
+			<li>
+				<strong>{{ u.username|safe }}</strong>
+			</li>
+		{% endfor %}
+		</ul>
+	{% else %}
+		<p>Ни одного пользователя в системе не существует.</p>
+	{% endif %}
+	</div>
 
 	<div class="footer">
 		<div class="copyright"> Copyright © 2010 Software Inspector. Все права защищены.</div>

@@ -2,11 +2,13 @@ from django.http import HttpResponse, Http404, HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.contrib import auth
 from django.contrib.auth.models import User
-from www.models import Soft, SoftVersion, SoftItem, SoftLine
+from www.models import SoftLine #Soft, SoftVersion, SoftItem, SoftLine
 
 def index(request):
+	users = User.objects.all()
 	return render_to_response('index.html', {
-		'user':request.user
+		'user':request.user,
+		'users':users
 	})
 
 
@@ -38,7 +40,7 @@ def user(request, user_name):
 		raise Http404#render_to_response('404.html')
 	
 	#soft_items = SoftItem.objects.filter(user__id=user.id)
-	soft_items = SoftLine.objects.all()
+	soft_items = SoftLine.objects.filter(user=user.id).all()
 	
 	#return HttpResponse(user.username + '\' page!')
 	return render_to_response('details.html', {
@@ -48,16 +50,22 @@ def user(request, user_name):
 
 def post_programs(request):
 	count = 0
+	response = 'Welcome to API!'
 	if request.method == 'POST':
-		#print(request.POST)
-		import www.api
-		count = www.api.parse_xml(request.raw_post_data)
+		user = request.user
+		if user.is_authenticated():
+			#print(request.POST)
+			import www.api
+			count = www.api.parse_xml(request.raw_post_data, user)
+		else:
+			response = "Need login before"
+			print("Need login before")
 	else:
 		print("Wrong Request Method")
 	
-	response = 'Welcome to API!'
+
 	if(count > 0):
 		response = 'Loaded %d items!' % count
 
-	print(response)
+	#print(response)
 	return HttpResponse(response)

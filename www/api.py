@@ -5,49 +5,49 @@ from www.models import SoftLine
 
 
 class SoftwareItemDTO(object):
-    name = ''
-    version = ''
-    is_removed = False
-    is_hidden = False
-    
-    def __str__(self):
-        return '%s (%s)' % (self.name, self.version)
+	name = ''
+	version = ''
+	is_removed = False
+	is_hidden = False
+	
+	def __str__(self):
+	    return '%s (%s)' % (self.name, self.version)
 
 class InstalledSoftwareLoader(object):
-    items = []
-    item = None
-    text = None
-    
-    def __init__(self):
-        return
+	def __init__(self):
+		self.items = []
+		self.item = None
+		self.text = None
 
-    def start(self, tag, attrib):
-        #print(tag)
-        if tag == '{http://tempuri.org/DataSet1.xsd}InstalledSoftware':
-            self.item = SoftwareItemDTO()
+	def start(self, tag, attrib):
+		#print(tag)
+		if tag == '{http://tempuri.org/DataSet1.xsd}InstalledSoftware':
+			self.item = SoftwareItemDTO()
 
-    def end(self, tag):
-        if tag == '{http://tempuri.org/DataSet1.xsd}InstalledSoftware':
-            self.items.append(self.item)
-            #print(self.item)
-        elif tag == '{http://tempuri.org/DataSet1.xsd}sName':
-            self.item.name = self.text
-        elif tag == '{http://tempuri.org/DataSet1.xsd}sVersion':
-            self.item.version = self.text
-        elif tag == '{http://tempuri.org/DataSet1.xsd}bRemoved':
-            self.item.is_removed = self.text
-        elif tag == '{http://tempuri.org/DataSet1.xsd}bHidden':
-            self.item.is_hidden = self.text
-        pass
-            
-    def data(self, data):
-        self.text = data
+	def end(self, tag):
+		if tag == '{http://tempuri.org/DataSet1.xsd}InstalledSoftware':
+			self.items.append(self.item)
+			#print(self.item)
+		elif tag == '{http://tempuri.org/DataSet1.xsd}sName':
+			self.item.name = self.text
+		elif tag == '{http://tempuri.org/DataSet1.xsd}sVersion':
+			self.item.version = self.text
+		elif tag == '{http://tempuri.org/DataSet1.xsd}bRemoved':
+			self.item.is_removed = self.text
+		elif tag == '{http://tempuri.org/DataSet1.xsd}bHidden':
+			self.item.is_hidden = self.text
+		pass
+			
+	def data(self, data):
+		self.text = data
 
-    def close(self):
-        pass
+	def close(self):
+		pass
 
 
-def parse_xml(request):
+def parse_xml(request, user):
+	SoftLine.objects.filter(user=user.id).delete()
+	#SoftLine.objects.all().delete()
 	#print(request.POST)
 	loader = InstalledSoftwareLoader()
 	parser = XMLTreeBuilder(target=loader)
@@ -56,9 +56,8 @@ def parse_xml(request):
 	#	for line in f:
 	#		parser.feed(line)
 	parser.close()
-	SoftLine.objects.all().delete()
 	for item in loader.items:
-		line = SoftLine.objects.create(name = item.name, version = item.version)
+		line = SoftLine.objects.create(name = item.name, version = item.version, user = user)
 		#print("Item => '%s'\n" % item.name)
 
 	return len(loader.items)
